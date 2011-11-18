@@ -1,5 +1,3 @@
 permalink: none
-exclude:
-- scripts
-markdown: rdiscount
+exclude: [scripts]
 url: http://math.washington.edu/~grigg/
