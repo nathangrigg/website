@@ -1,5 +1,6 @@
 ---
 layout: 308au09
+title: Homework answers
 ---
 
 # Answers to even problems to Homework 3.5

@@ -1,5 +1,6 @@
 ---
 layout: 111au08
+title: Math 111
 ---
 
 # Course information

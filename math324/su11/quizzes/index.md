@@ -1,6 +1,7 @@
 ---
 layout: 324su11
 section: quizzes
+title: Quizzes
 ---
 
 Here are the quizzes and solutions from this quarter.

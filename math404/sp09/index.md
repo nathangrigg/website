@@ -1,5 +1,6 @@
 ---
 layout: 404sp09
+title: Homework Solutions
 ---
 
 

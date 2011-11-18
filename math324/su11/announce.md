@@ -1,5 +1,6 @@
 ---
 layout: 324su11
+title: Math 324 Announcements
 ---
 
 <!-- this file is automatically created-->
@@ -17,7 +18,7 @@ layout: 324su11
   You should get started now on the <a href='http://math.washington.edu/%7Egrigg/math324/su11/exams/final-home.pdf'>take home problem</a> for the final exam. This problem is due at the beginning of class on Friday, August 19. Information about the final exam is posted on <a href="http://math.washington.edu/%7Egrigg/math324/su11/exams/final-info.html">this page</a>.
   [Mon Aug 15]
 - **Sample Final Exam.**
-  You can begin to prepare for the final exam by looking at <a href='http://www.math.washington.edu/~arms/m324.10/sam.fex.frSP09.pdf'>this practice final</a>. Notice that the practice final is a 2-hour exam, so is longer than your exam will be. Also, do not neglect to study something just because it is not on the practice exam. <b>Update: </b> I have now posted <a href="http://www.math.washington.edu/~arms/m324.10/soln.sam.fex.pdf"> answers to sample final</a>.
+  You can begin to prepare for the final exam by looking at this practice final. Notice that the practice final is a 2-hour exam, so is longer than your exam will be. Also, do not neglect to study something just because it is not on the practice exam.
   [Sat Aug 13]
 
 
@@ -87,7 +88,7 @@ Older announcements
   These sections are a quick read. I would also recommend some of the first 15 problems in each section to give you a feel for cylindrical and spherical coordinates. There will also be a quiz on Friday.
   [Wed Jun 29]
 - **Quiz 1 Results.**
-  The results of your first quiz can be seen in the <a href='https://catalyst.uw.edu/gradebook/grigg/46855'>Catalyst grade book</a>. Anyone who got a C or lower can come to my office hours this week to take a make up quiz. The makeup quiz will cover the same material that the original quiz did, that is, 15.1-15.4. For information on what your quiz score means, see the <a href="http://math.washington.edu/~grigg/math324/su11-syllabus.html">syllabus</a>.
+  The results of your first quiz can be seen in the <a href='https://catalyst.uw.edu/gradebook/grigg/46855'>Catalyst grade book</a>. Anyone who got a C or lower can come to my office hours this week to take a make up quiz. The makeup quiz will cover the same material that the original quiz did, that is, 15.1-15.4. For information on what your quiz score means, see the <a href="http://math.washington.edu/~grigg/math324/syllabus/">syllabus</a>.
   [Mon Jun 27]
 - **Read 15.6 for Monday.**
   For the first half of the section, the explanations are bad, but the examples are very good. Focus on the examples. The applications half of the section is good.
@@ -108,5 +109,5 @@ Older announcements
   Read sections 15.1-15.4 before you come to class on Wednesday. This should all be review from Math 126. If this doesn't feel like review to you, I strongly recommend you visit my office hours this week. The first homework assignment and quiz will cover this material. You should be able to do any double integral I throw at you, and you should understand polar coordinates.
   [Sat Jun 18]
 - **Welcome.**
-  Welcome to the class. In the first couple of days, you should look at the <a href='http://math.washington.edu/~grigg/math324/su11-syllabus.html'>syllabus</a> and <a href="http://math.washington.edu/~grigg/math324/su11/homework/homework1.html">first homework assignment</a>.
+  Welcome to the class. In the first couple of days, you should look at the <a href='http://math.washington.edu/~grigg/math324/su11-syllabus.html'>syllabus</a> and first homework assignment.
   [Sat Jun 18]

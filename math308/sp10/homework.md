@@ -1,5 +1,6 @@
 ---
 layout: 308sp10
+title: Homework
 ---
 
 ## Homework 1

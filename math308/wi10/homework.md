@@ -1,5 +1,6 @@
 ---
 layout: 308wi10
+title: Homework
 ---
 
 <a name=1></a><h2 class=h1>Homework 1</h2>

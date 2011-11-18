@@ -1,6 +1,7 @@
 ---
 layout: 324su11
-feed: http://math.washington.edu/~grigg/math324/announce.rss
+feed: http://math.washington.edu/~grigg/math324/su11/announce.rss
+title: Math 324
 ---
 
 
@@ -8,10 +9,10 @@ feed: http://math.washington.edu/~grigg/math324/announce.rss
 
 Please check back often to keep up to date on class announcements or subscribe to the [RSS feed][rss].
 
-[rss]: http://math.washington.edu/~grigg/math324/announce.rss
+[rss]: http://math.washington.edu/~grigg/math324/su11/announce.rss
 
 - **Answers to final exam.**
-  Here are the <a href='http://math.washington.edu/~grigg/math324/exams/final-ans.pdf'>answers</a>. Grades will be posted on Catalyst as soon as I am done grading.
+  Here are the <a href='http://math.washington.edu/~grigg/math324/su11/exams/final-ans.pdf'>answers</a>. Grades will be posted on Catalyst as soon as I am done grading.
   [Fri Aug 19]
 - **Exam pick up.**
   I will be in my office from 9-10 am on Tuesday, August 23, to return exams or answers questions you have about the exam. If you don't pick up your exam on Tuesday, you can send me an email in October, November, or December to pick up your exam. After that, they will be shredded.
@@ -20,11 +21,10 @@ Please check back often to keep up to date on class announcements or subscribe t
   I will be holding special office hours on Thursday from 2-3. This is in addition to my standard office hours Wednesday at 3:30.
   [Wed Aug 17]
 - **Final Exam Take Home Problem.**
-  You should get started now on the <a href='http://math.washington.edu/%7Egrigg/math324/exams/final-home.pdf'>take home problem</a> for the final exam. This problem is due at the beginning of class on Friday, August 19. Information about the final exam is posted on <a href="http://math.washington.edu/%7Egrigg/math324/exams/final-info.html">this page</a>.
+  You should get started now on the <a href='http://math.washington.edu/%7Egrigg/math324/su11/exams/final-home.pdf'>take home problem</a> for the final exam. This problem is due at the beginning of class on Friday, August 19. Information about the final exam is posted on <a href="http://math.washington.edu/%7Egrigg/math324/su11/exams/final-info.html">this page</a>.
   [Mon Aug 15]
 - **Sample Final Exam.**
-  You can begin to prepare for the final exam by looking at <a href='http://www.math.washington.edu/~arms/m324.10/sam.fex.frSP09.pdf'>this practice final</a>. Notice that the practice final is a 2-hour exam, so is longer than your exam will be. Also, do not neglect to study something just because it is not on the practice exam. <b>Update: </b> I have now posted <a href="http://www.math.washington.edu/~arms/m324.10/soln.sam.fex.pdf"> answers to sample final</a>.
-  [Sat Aug 13]
+  You can begin to prepare for the final exam by looking at this practice final (no longer exists). Notice that the practice final is a 2-hour exam, so is longer than your exam will be. Also, do not neglect to study something just because it is not on the practice exam.
 - [View older announcements](announce.html)
 
 
@@ -35,7 +35,7 @@ Please check back often to keep up to date on class announcements or subscribe t
 - [Catalyst Grade book][catalyst]
 - [Syllabus][syl]
 
-[syl]: su11-syllabus.html
+[syl]: syllabus/
 [MIT1]: http://ocw.mit.edu/courses/mathematics/18-02-multivariable-calculus-fall-2007/
 [MIT2]: http://itunes.apple.com/itunes-u/multivariable-calculus-spring/id354869122
 [catalyst]: https://catalyst.uw.edu/gradebook/grigg/46855
@@ -85,7 +85,6 @@ Please check back often to keep up to date on class announcements or subscribe t
 
 # Homework
 
-- [Homework 1][hw1]
 - [Homework 2][hw2]
 - [Homework 3][hw3]
 - [Homework 4][hw4]
@@ -95,7 +94,6 @@ Please check back often to keep up to date on class announcements or subscribe t
 - [Homework 8][hw8]
 - [Homework 9][hw9]
 
-[hw1]: homework/homework1.html
 [hw2]: homework/homework2.html
 [hw3]: homework/homework3.html
 [hw4]: homework/homework4.html

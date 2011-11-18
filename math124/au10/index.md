@@ -1,5 +1,6 @@
 ---
 layout: 124au10
+title: Math 124
 ---
 
 # Files

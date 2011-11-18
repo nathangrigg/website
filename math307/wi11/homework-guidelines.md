@@ -1,6 +1,7 @@
 ---
 layout: 307wi11
 section: homework
+title: Homework guidelines
 ---
 
 # Please follow these guidelines when doing your homework assignments.

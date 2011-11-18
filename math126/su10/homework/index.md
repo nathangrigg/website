@@ -1,6 +1,7 @@
 ---
 layout: 126su10
 section: homework
+title: Homework
 ---
 
 ## Homework 1

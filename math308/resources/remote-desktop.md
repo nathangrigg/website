@@ -1,4 +1,7 @@
-% Computer Resources at UW
+---
+layout: default
+title: remote desktop
+---
 
 # College of Arts and Sciences Computer Lab
 

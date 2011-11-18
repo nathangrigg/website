@@ -1,6 +1,7 @@
 ---
 layout: 126su10
 section: quizzes
+title: Quizzes
 ---
 
 # Summer 2010 Quizzes

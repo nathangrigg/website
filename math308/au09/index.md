@@ -1,5 +1,6 @@
 ---
 layout: 308au09
+title: Math 308
 ---
 
 # Announcements
@@ -14,15 +15,14 @@ layout: 308au09
     -   Extended Office Hours Tuesday 11-2.
 
 -   Sample Finals: [Final 1](final-sample1.pdf),
-    [Answers](au09/final-sample1-ans.pdf); [Final
-    2](au09/final-sample2.pdf), [Answers](final-sample2-ans.pdf).
+    [Answers](final-sample1-ans.pdf); [Final
+    2](final-sample2.pdf), [Answers](final-sample2-ans.pdf).
 -   You can check your grades on [Catalyst Grade
     Book](https://catalysttools.washington.edu/gradebook/grigg/11861%22).
 
 # Files and Links
 
 -   [Homework assignments](homework.html)
--   [Using computers in linear algebra](resources/)
 -   [Catalyst Grade
     Book](https://catalysttools.washington.edu/gradebook/grigg/11861%22)
 -   [Essay Problem 1](essay1.pdf)

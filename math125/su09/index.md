@@ -1,5 +1,6 @@
 ---
 layout: 125su09
+title: Math 125
 ---
 
 ## Course Information
@@ -27,7 +28,7 @@ layout: 125su09
 ## Links
 
 -   [Math 125 Department Website](http://www.math.washington.edu/~m125/)
--   [Homework assignments](homework.html)
+-   [Homework assignments](homework/)
 
 ## Contact me
 

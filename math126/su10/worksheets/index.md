@@ -1,6 +1,7 @@
 ---
 layout: 126su10
 section: worksheets
+title: Worksheets
 ---
 
 ## Summer 2010 Worksheets

@@ -1,5 +1,6 @@
 ---
 layout: 308au09
+title: Quizzes
 ---
 
 # Past Quizzes

@@ -1,6 +1,7 @@
 ---
 layout: 307wi11
 section: exams
+title: Exams
 ---
 
 # Exam 1

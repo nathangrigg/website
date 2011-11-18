@@ -1,5 +1,6 @@
 ---
 layout: 308wi10
+title: Math 308
 ---
 
 ## Announcements
@@ -8,7 +9,6 @@ layout: 308wi10
     our regular classroom. The exam will cover everything that we have
     learned this quarter.**
 -   Opportunities for exam preparation:
-    -   [Exams from previous quarters](exams/)
     -   Office hours: Monday and Tuesday of finals week from 12:30 to
         1:30 or by appointment.
 
@@ -32,9 +32,7 @@ layout: 308wi10
 
 -   [Class syllabus](syllabus-math308a.pdf)
 -   [Homework assignments](homework.html)
--   [Using computers in linear algebra](resources/)
 -   [Quizzes you have already taken](quizzes.html)
--   [Answers to Supplementary and Conceptual Exercises](reviews.html)
 -   [Exams from previous quarters]({{site.url}}math308/exams/)
 -   [Answers to Midterm 1](midterm1-ans.pdf)
 -   [Answers to Midterm 2](midterm2-ans.pdf)

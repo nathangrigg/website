@@ -1,6 +1,7 @@
 ---
 layout: me
 section: teaching
+title: Nathan Grigg's Teaching
 ---
 
 # Current
@@ -34,7 +35,7 @@ Currently supported by a research grant
 - Autumn 2007
 	- [Calculus I][au07] (124)
 
-[su11]: {{ site.url }}math324/wi11/
+[su11]: {{ site.url }}math324/su11/
 [wi11]: {{ site.url }}math307/wi11/
 [au10]: {{ site.url }}math124/au10/
 [su10]: {{ site.url }}math126/su10/

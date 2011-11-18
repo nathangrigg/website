@@ -1,5 +1,6 @@
 ---
 layout: 308sp10
+title: Math 308
 ---
 
 ## Course Information
@@ -11,8 +12,6 @@ layout: 308sp10
 
 -   [Eigenbasis problems](eigenbasis.pdf)
 -   [Notes on finding rational roots](factoring.pdf)
--   [Using computers in linear algebra](resources/)
--   [Answers to Supplementary and Conceptual Exercises](reviews.html)
 
 ## Exams
 

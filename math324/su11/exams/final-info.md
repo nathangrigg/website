@@ -1,6 +1,7 @@
 ---
 layout: 324su11
 section: exams
+title: Final Exam Information
 ---
 
 The final exam will consist of two parts: a take home part and an in class part.

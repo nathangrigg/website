@@ -1,6 +1,7 @@
 ---
 layout: me
 section: research
+title: Nathan Grigg's Research
 ---
 
 

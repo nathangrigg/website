@@ -1,5 +1,6 @@
 ---
 layout: 126su10
+title: Math 126
 ---
 
 ## Announcements

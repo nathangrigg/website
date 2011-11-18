@@ -1,6 +1,7 @@
 ---
 layout: 324su11
 section: syllabus
+title: Syllabus
 ---
 
 # General Information
