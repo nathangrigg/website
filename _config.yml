@@ -1,0 +1,5 @@
+permalink: none
+exclude:
+- scripts
+markdown: rdiscount
+url: http://math.washington.edu/~grigg/

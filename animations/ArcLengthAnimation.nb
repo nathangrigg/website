@@ -1,0 +1,295 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 7.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[     10726,        286]
+NotebookOptionsPosition[     10061,        259]
+NotebookOutlinePosition[     10403,        274]
+CellTagsIndexPosition[     10360,        271]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[TextData[StyleBox["Line parametrized by \[LeftAngleBracket]t,t\
+\[RightAngleBracket]",
+ FontSize->24]], "Input",
+ CellChangeTimes->{{3.487589908008328*^9, 3.487589932138215*^9}},
+ FormatType->"TextForm"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Animate", "[", 
+  RowBox[{
+   RowBox[{"Show", "[", 
+    RowBox[{
+     RowBox[{"Plot", "[", 
+      RowBox[{"x", ",", 
+       RowBox[{"{", 
+        RowBox[{"x", ",", "0", ",", "30"}], "}"}], ",", 
+       RowBox[{"PlotStyle", "\[Rule]", "Thick"}]}], "]"}], ",", 
+     RowBox[{"Graphics", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"PointSize", "[", ".02", "]"}], ",", 
+        RowBox[{"Point", "[", 
+         RowBox[{"{", 
+          RowBox[{"t", ",", "t"}], "}"}], "]"}]}], "}"}], "]"}]}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"t", ",", "0", ",", "25"}], "}"}], ",", 
+   RowBox[{"AnimationRunning", "\[Rule]", "False"}], ",", 
+   RowBox[{"AnimationRepetitions", "\[Rule]", "2"}]}], "]"}]], "Input"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`t$$ = 25., Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{
+      Hold[$CellContext`t$$], 0, 25}}, Typeset`size$$ = {360., {113., 117.}}, 
+    Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
+    True, $CellContext`t$7388$$ = 0}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, "Variables" :> {$CellContext`t$$ = 0}, 
+      "ControllerVariables" :> {
+        Hold[$CellContext`t$$, $CellContext`t$7388$$, 0]}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> Show[
+        Plot[$CellContext`x, {$CellContext`x, 0, 30}, PlotStyle -> Thick], 
+        Graphics[{
+          PointSize[0.02], 
+          Point[{$CellContext`t$$, $CellContext`t$$}]}]], 
+      "Specifications" :> {{$CellContext`t$$, 0, 25, AnimationRunning -> 
+         False, AnimationRepetitions -> 2, 
+         AppearanceElements -> {
+          "ProgressSlider", "PlayPauseButton", "FasterSlowerButtons", 
+           "DirectionButton"}}}, 
+      "Options" :> {
+       ControlType -> Animator, AppearanceElements -> None, 
+        SynchronousUpdating -> True, ShrinkingDelay -> 10.}, 
+      "DefaultOptions" :> {}],
+     ImageSizeCache->{403., {150.34375, 155.65625}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{3.487589814373122*^9, 3.487590103739746*^9}]
+}, Open  ]],
+
+Cell[TextData[StyleBox["Line parametrized by \[LeftAngleBracket]3 t, 3 t\
+\[RightAngleBracket]",
+ FontSize->24]], "Input",
+ CellChangeTimes->{{3.487589971300209*^9, 3.487589972191963*^9}},
+ FormatType->"TextForm"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Animate", "[", 
+  RowBox[{
+   RowBox[{"Show", "[", 
+    RowBox[{
+     RowBox[{"Plot", "[", 
+      RowBox[{"x", ",", 
+       RowBox[{"{", 
+        RowBox[{"x", ",", "0", ",", "30"}], "}"}], ",", 
+       RowBox[{"PlotStyle", "\[Rule]", "Thick"}]}], "]"}], ",", 
+     RowBox[{"Graphics", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"PointSize", "[", ".02", "]"}], ",", 
+        RowBox[{"Point", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"3", "*", "t"}], ",", 
+           RowBox[{"3", "*", "t"}]}], "}"}], "]"}]}], "}"}], "]"}]}], "]"}], 
+   ",", 
+   RowBox[{"{", 
+    RowBox[{"t", ",", "0", ",", "25"}], "}"}], ",", 
+   RowBox[{"AnimationRunning", "\[Rule]", "False"}], ",", 
+   RowBox[{"AnimationRepetitions", "\[Rule]", "2"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.487589225665546*^9, 3.48758922863061*^9}}],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`t$$ = 25., Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{
+      Hold[$CellContext`t$$], 0, 25}}, Typeset`size$$ = {360., {113., 117.}}, 
+    Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
+    True, $CellContext`t$7410$$ = 0}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, "Variables" :> {$CellContext`t$$ = 0}, 
+      "ControllerVariables" :> {
+        Hold[$CellContext`t$$, $CellContext`t$7410$$, 0]}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> Show[
+        Plot[$CellContext`x, {$CellContext`x, 0, 30}, PlotStyle -> Thick], 
+        Graphics[{
+          PointSize[0.02], 
+          Point[{3 $CellContext`t$$, 3 $CellContext`t$$}]}]], 
+      "Specifications" :> {{$CellContext`t$$, 0, 25, AnimationRunning -> 
+         False, AnimationRepetitions -> 2, 
+         AppearanceElements -> {
+          "ProgressSlider", "PlayPauseButton", "FasterSlowerButtons", 
+           "DirectionButton"}}}, 
+      "Options" :> {
+       ControlType -> Animator, AppearanceElements -> None, 
+        SynchronousUpdating -> True, ShrinkingDelay -> 10.}, 
+      "DefaultOptions" :> {}],
+     ImageSizeCache->{403., {150.34375, 155.65625}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{3.4875898366841583`*^9, 3.4875901325619926`*^9}]
+}, Open  ]],
+
+Cell[TextData[StyleBox["Line parametrized by \[LeftAngleBracket]t+sin\.b2 t, \
+t+sin\.b2 t\[RightAngleBracket]",
+ FontSize->24]], "Input",
+ CellChangeTimes->{{3.487590006607563*^9, 3.487590042469389*^9}},
+ FormatType->"TextForm"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Animate", "[", 
+  RowBox[{
+   RowBox[{"Show", "[", 
+    RowBox[{
+     RowBox[{"Plot", "[", 
+      RowBox[{"x", ",", 
+       RowBox[{"{", 
+        RowBox[{"x", ",", "0", ",", "30"}], "}"}], ",", 
+       RowBox[{"PlotStyle", "\[Rule]", "Thick"}]}], "]"}], ",", 
+     RowBox[{"Graphics", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"PointSize", "[", ".02", "]"}], ",", 
+        RowBox[{"Point", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"t", "+", 
+            RowBox[{
+             RowBox[{"Sin", "[", "t", "]"}], "^", "2"}]}], ",", 
+           RowBox[{"t", "+", 
+            RowBox[{
+             RowBox[{"Sin", "[", "t", "]"}], "^", "2"}]}]}], "}"}], "]"}]}], 
+       "}"}], "]"}]}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"t", ",", "0", ",", "25"}], "}"}], ",", 
+   RowBox[{"AnimationRunning", "\[Rule]", "False"}], ",", 
+   RowBox[{"AnimationRepetitions", "\[Rule]", "2"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.487589238409522*^9, 3.487589245758353*^9}}],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`t$$ = 25., Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{
+      Hold[$CellContext`t$$], 0, 25}}, Typeset`size$$ = {360., {113., 117.}}, 
+    Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
+    True, $CellContext`t$7458$$ = 0}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, "Variables" :> {$CellContext`t$$ = 0}, 
+      "ControllerVariables" :> {
+        Hold[$CellContext`t$$, $CellContext`t$7458$$, 0]}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> Show[
+        Plot[$CellContext`x, {$CellContext`x, 0, 30}, PlotStyle -> Thick], 
+        Graphics[{
+          PointSize[0.02], 
+          
+          Point[{$CellContext`t$$ + Sin[$CellContext`t$$]^2, $CellContext`t$$ + 
+            Sin[$CellContext`t$$]^2}]}]], 
+      "Specifications" :> {{$CellContext`t$$, 0, 25, AnimationRunning -> 
+         False, AnimationRepetitions -> 2, 
+         AppearanceElements -> {
+          "ProgressSlider", "PlayPauseButton", "FasterSlowerButtons", 
+           "DirectionButton"}}}, 
+      "Options" :> {
+       ControlType -> Animator, AppearanceElements -> None, 
+        SynchronousUpdating -> True, ShrinkingDelay -> 10.}, 
+      "DefaultOptions" :> {}],
+     ImageSizeCache->{403., {150.34375, 155.65625}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{3.48758985668331*^9, 3.4875901587518587`*^9}]
+}, Open  ]]
+},
+WindowSize->{563, 459},
+WindowMargins->{{495, Automatic}, {Automatic, 103}},
+FrontEndVersion->"7.0 for Mac OS X x86 (32-bit) (February 18, 2009)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[545, 20, 208, 4, 39, "Input"],
+Cell[CellGroupData[{
+Cell[778, 28, 739, 20, 58, "Input"],
+Cell[1520, 50, 2005, 42, 323, "Output"]
+}, Open  ]],
+Cell[3540, 95, 213, 4, 39, "Input"],
+Cell[CellGroupData[{
+Cell[3778, 103, 872, 24, 58, "Input"],
+Cell[4653, 129, 2013, 42, 323, "Output"]
+}, Open  ]],
+Cell[6681, 174, 229, 4, 39, "Input"],
+Cell[CellGroupData[{
+Cell[6935, 182, 1025, 28, 73, "Input"],
+Cell[7963, 212, 2082, 44, 323, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

@@ -1,0 +1,175 @@
+/* SITE WIDE BASIC SETTINGS */
+
+body {
+	font-family: Georgia, serif;
+	width: 550px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+}
+
+a {
+	text-decoration: none;
+	color: #705FD9;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #705FD9;
+}
+
+ul {
+	padding-left: 1.5em;
+}
+
+ul ul {
+	list-style-type: none;
+	padding-left: 1.5em;
+}
+
+h1 {
+	font-weight: normal;
+	font-size: 1.5em;
+}
+h2 {
+	font-weight: normal;
+	font-size: 1.2em;
+}
+
+/* HEADER AND NAV SETTINGS */
+
+header {
+    display: block;
+    margin-bottom: 0px;
+    margin-left: -2em;
+    margin-right: -2em;
+    padding-top: 2ex;
+    background:  #483D8B;
+    border-bottom: 1px solid #483D8B;
+}
+
+header a {
+	color: white;
+}
+
+header a:hover{
+	color: white;
+}
+
+nav {
+    display: block;
+    width: auto;
+    text-align: right;
+    font-size: small;
+    margin: 0em;
+    padding: 0em;
+}
+
+nav ul {
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-right: 0em;
+    display: inline;
+    width: auto;
+}
+
+nav li {
+	margin-left: .2em;
+	margin-right: .2em;
+    padding: .1em .5em 0em .5em;
+    display: inline;
+    width: auto;
+}
+
+#main-title {
+    padding: 0em;
+    text-align: left;
+    font-size: 4ex;
+    font-weight: normal;
+    margin: 0em;
+    margin-left: 1em;
+}
+
+#backlink {
+	font-size: medium;
+	color: white;
+}
+
+/* tab effect */
+
+body.teaching li.teaching,
+body.cv li.cv,
+body.research li.research,
+body.surplus li.surplus,
+body.homework li.homework,
+body.quizzes li.quizzes,
+body.worksheets li.worksheets,
+body.exams li.exams,
+body.syllabus li.syllabus,
+body.oscillations li.oscillations
+{
+	-moz-border-radius-topright: 5px;
+	-moz-border-radius-topleft: 5px;
+	border-top-right-radius: 3px 5px;
+	border-top-left-radius: 3px 5px;
+	background: white;
+	border-bottom: 1px solid white;
+}
+
+body.teaching li.teaching a,
+body.cv li.cv a,
+body.research li.research a,
+body.surplus li.surplus a,
+body.homework li.homework a,
+body.quizzes li.quizzes a,
+body.worksheets li.worksheets a,
+body.exams li.exams a,
+body.syllabus li.syllabus a,
+body.oscillations li.oscillations a
+{
+	color: black;
+}
+
+
+/* MORE ABOUT ME */
+#me {
+	display: none;
+	margin-top: 6ex;
+}
+
+#more-about-me, #less-about-me {
+	text-align: center
+}
+
+/* TABLES */
+table {
+	border-collapse: collapse;
+}
+th {
+	border-bottom: 1px solid black;
+	text-align: left;
+}
+td {
+	padding: 0 8px 0 8px;
+}
+
+/* PRINT */
+@media print{
+header {
+	background: white;
+	border-bottom: 0px;
+	margin-bottom: 2em;
+	margin-top: 2em;
+}
+header a {
+	color: black;
+}
+nav {
+	display: none;
+}
+#content{
+	border-top: 2px solid black;
+}
+body{
+	border: 0px;
+}

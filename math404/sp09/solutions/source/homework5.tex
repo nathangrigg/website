@@ -1,0 +1,157 @@
+\documentclass{article}
+
+\usepackage{amsthm,amsmath,amssymb}
+\usepackage[all]{xy}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\C}{\mathbb C}
+\newcommand{\R}{\mathbb R}
+\newcommand{\inv}{^{-1}}
+
+\title{Solutions to Homework 5}
+\author{Nathan Grigg}
+\date{}
+
+\begin{document}
+\maketitle
+{\noindent\bf Section 5, Exercises 1, 3, 4, 7, 10, and 11}
+
+\paragraph{Exercise 1.}  Let $K=\Q(\alpha)$, where $\alpha$ is a root of the polynomial $x^3+2x+1$, and let $g(x)=x^3+x+1$. Does $g(x)$ have a root in $K$?
+
+\begin{proof}[Solution]
+The answer is no, which we will prove by contradiction. 
+Let $L$ denote the splitting field of $f$.
+Assume that $\beta\in K$ is a root of $g(x)$. 
+Then $\beta\in L$. But $g$ is irreducible, which means that
+$\beta\not\in \Q$. Since $L/\Q$ is Galois, there must be some element
+of $G(L/\Q)$ that does not fix $\beta$. But this automorphism must
+take $\beta$ to some other root of $g$, which means that this other
+root of $g$ must be an element of $L$. So in fact all the roots of $g$
+are in $L$.
+
+In particular, the square roots of the discrimants of $f$ and $g$
+(i.e. $\sqrt{-59}$ and $\sqrt{-31}$) are in $L$. But this means that
+$L$ has two intermediate fields of degree $2$ over $\Q$, which is
+impossible since $G(L/\Q)=S_3$, which
+ has only one subgroup of index 2. So we have a
+contradiction, which means that our assumsion was not true. So $g$ has
+no roots in $K$.
+\end{proof}
+
+\paragraph{Exercise 3.} Let $G$ be a finite group. Prove that there
+exists a field $F$ and a Galois extension $K$ of $F$ whose Galois
+group is $G$. 
+
+\begin{proof}
+First note that by Caylee's theorem, $G\cong H$, where $H$ is a subgroup
+of $S_n$ for some $n$. Let $K=\Q(x_1,\ldots,x_n)$ be the field of rational
+functions in $n$ variables. For each $\sigma\in S_n$ there is an
+automorphism $\tilde \sigma$ of $K$ that sends $x_i$ to $x_{\sigma
+  (i)}$ for each $i$. It is clear that $\tilde\sigma \tilde\tau
+(\alpha ) = \widetilde{\sigma\tau}(\alpha)$ for all $\alpha\in
+  K$. Also, $\tilde\sigma=\tilde\tau$ implies $\sigma=\tau$, 
+so $S_n$ is a subgroup of the group of automorphisms of $K$. Let $L$
+be the fixed field of $S_n$, then $K/L$ is Galois, with
+$G(K/L)=S_n$. Finally, let $F=K^H$. By the main Galois theorem,
+$G(K/F)=H$, which is isomorphic to $G$, as required.
+\end{proof}
+
+\paragraph{Exercise 4.} Assume it is known that $\pi$ and $e$ are
+transcendental numbers. Let $K$ be the plitting field of the
+polynomial $f(x)=x^3+\pi x+6$ over the field $F=\Q(\pi)$. Prove that
+$[K:F]=6$ and that $K$ is isomorphic to the splitting field of
+$f(x)=x^3+ex+6$ over $\Q(e)$.
+
+\begin{proof}
+First, we show that $f(x)$ is irreducible over $\Q(\pi)$. If $f$ is
+reducible then since it is cubic it must have a root $\alpha$. This
+gives us an equation $\alpha^3+\pi \alpha+6=0$, where $\alpha\in
+\Q(\pi)$. We can take this equation, change all the $\pi$'s to $x$'s,
+and clear denominators, and we get a polynomial in $\Q[x]$ that has
+$\pi$ as a root, which is a contradiction since $\pi$ is
+transcendental. Therefore $f$ is irreducible. Finally, the square root
+of the discrimant is $\sqrt{-972-4\pi^3}$, which is not in $\R$, much
+less in $\Q(\pi)$. So the Galois group of $f$ is $S_3$, which means
+$[K:F]=6$. 
+
+Next, there is an isomorphism of the fields $\Q(\pi)$ and $\Q(e)$
+which takes $\pi$ to $e$, which means it takes $f$ to $g$. Then by
+Proposition~(5.2), the splitting field of $f$ is isomorphic to the
+splitting field of $g$, as desired.
+\end{proof}
+
+\paragraph{Exercise 7.} Let $f$ be an irreducible cubic polynomial
+over $\mathbb Q$ whose Galois group is $S_3$. Determine the possible
+Galois groups of the polynomial $(x^3-1)\cdot f(x)$. 
+
+\begin{proof}[Solution]
+Let $K$ be the splitting field of $f$, and let $\omega$ be a non-real
+root of $x^3-1$. We are asked to determine the possibilities for
+$G=G(K(\omega)/\Q)$. First, note that if $\omega\in K$, then
+we have  $G=S_3$. 
+
+If $\omega \not\in K$, then we have the following field diagram:
+\begin{equation*}
+\xymatrix{
+&K(\omega)\ar@{-}[dl]_{6} \ar@{-}[dr]^{2}& \\
+\Q(\omega) && K \\
+&\Q\ar@{-}[ul]_2 \ar@{-}[ur]^{6}
+}
+\end{equation*}
+Now, $\Q(\omega)/\Q$ is a Galois extension, 
+since $\Q(\omega)$ is the splitting field of a polynomial.
+By the Galois correspondence, there is a normal subgroup $H$ of $G$
+such that $G/H\cong G(\Q(\omega)/\Q)\cong C_2$.
+For the same reasons, $K/\Q$ is Galois, and there is a normal subgroup
+$H'$ such that $G/H'\cong G(K/\Q)\cong S_3$. A basic group theory
+result tells us that since $H$ and $H'$ are normal, the product $HH'$
+is a subgroup of $G$, so it must correspond to a subfield of
+$K(\omega)$. To find out which, we compute the fixed field of
+$HH'$. But $H$ and $H'$ are both subgroups of $HH'$, so if $\alpha$ is
+fixed by $HH'$ it must be fixed by $H$ and $H'$ as well, which means
+it must be in $\Q(\omega)$ (the fixed field of $H$) and $K$ (the fixed
+field of $H'$), which means it must be in $\Q$. But $\Q$ is the fixed
+field of $G$, which means that $HH'=G$. Now we know that $|H\cap H'|
+= |H||H'|/|HH'| = 1$. This fact, together with the fact that $H$ and
+$H'$ are normal subgroups, means that $G=HH'\cong H\times H'$.
+But then $H\cong G/H'\cong S_3$ and $H'\cong G/H\cong C_2$, so we have
+$G\cong S_3\times C_2$. This is isomorphic to the dihedral group of
+order 12.
+\end{proof}
+
+\paragraph{Exercise 10.} Let $K$ be a splitting field of an
+irreducible cubic polynomial $f(x)$ over a field $F$ whose Galois
+group is $S_3$. Determine the group $G=G(F(\alpha)/F)$. 
+
+\begin{proof}[Solution]
+Since $F(\alpha)\subseteq K$, with $[K:F(\alpha)]=2$, 
+$F(\alpha)$ corresponds to a subgroup of $S_3$ of order $2$. We know
+that the subgroups of $S_3$ of order $2$ are not normal subgroups, so
+therefore $F(\alpha)/F$ is not Galois, which implies that
+$|G|\neq 3$. But we know that the order of $G$ divides $3$, which
+means that $|G|=1$, and $G$ is the trivial group.
+\end{proof}
+
+
+\paragraph{Exercise 11.} Let $K/F$ be a Galois extension whose Galois
+group is the symmnetric group $S_3$. Is it true that $K$ is the
+splitting field of an irreducible cubic polynomial over $F$? 
+
+\begin{proof}[Solution]
+Yes. Let $H$ be a subgroup of $S_3$ of order 2. Let $K^H$ be the fixed
+field of $H$, and let $\alpha$ be such that $K^H=F(\alpha)$. Then
+$[F(\alpha):F]=3$, so $\alpha$ is the root of a degree 3 polynomial in
+$F[x]$, which I will call $f(x)$. I claim that $K$ is the splitting
+field of $f$. 
+
+Since $f$ has one root of $K$, it has all its roots in $K$ by
+the argument we gave in Exercise~1. Also, $H$ is not normal in $S_3$,
+so $F(\alpha)/F$ is not Galois, therefore $F(\alpha)$ is not the
+splitting field of $f$. So the splitting field of $f$ contains but is
+not equal to $F(\alpha)$ and is contained in $K$. By the Galois
+theorem, the splitting field of $f$ corresponds to a subgroup of $S_3$
+that is contained in but not equal to $H$. But $|H|=2$, so the
+splitting field must correspond to the trivial subgroup, which means
+the fixed field is $K$, as desired.
+\end{proof}
+
+\end{document}

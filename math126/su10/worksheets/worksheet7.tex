@@ -1,0 +1,71 @@
+% Latex document
+% Math 126   Winter 2008
+% First worksheet: review, TS intro 
+
+
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{amssymb,amsthm}
+\textwidth=6.5in
+\textheight=9in
+\topmargin=-0.5in
+\oddsidemargin= 0.0in
+\evensidemargin= 0.0in
+
+
+
+\setlength{\parskip}{1ex plus0.5ex minus0.2ex}
+
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{center}
+\bf{Worksheet 7 --- Math 126 --- Summer 2010}
+\end{center}
+
+
+\vspace{0.2in}
+\noindent
+[1] {\it Center of Mass}.  
+Find the center of mass of a lamina in the shape of an isoceles right triangle with equal sides of length $a$ if the density at any point is proportional to the square of the distance from the vertex opposite the hypotenuse.
+
+\vspace{0.2in}
+\noindent
+[2] {\it Review: Tangent line approximation and tangent lines.}
+Find the tangent line approximation (also called the linear approximation)
+of the function $f(x) = \sqrt{1-x}$ at $a=0$, 
+and use it to approximate the numbers $\sqrt{0.9}$ and $\sqrt{0.99}$.
+Graph the function $f$ and the tangent line at the point $a=0$. 
+Based on the picture,
+determine if your estimates are above or below the actual values.
+
+\vspace{0.2in}
+\noindent
+[3] \emph{Tangent Line Error Bound.}
+Consider the function $\displaystyle f(x) = \int_0^x \sqrt{4-\sin(\pi t)} \, dt$.
+(You should \emph{not} try to find a formula for $f$.)
+
+(a) What is $f(0)$?   
+
+(b) What is $f'(x)$?
+
+(c)  Find the tangent line approximation (1st Taylor Polynomial)
+     for $f(x)$ based at zero.
+
+(d)  Use the Tangent Line Error Bound to find a bound on the error
+    if you use the tangent line approximation for $f$ on the interval
+    $[-1/6,1/6]$. 
+
+(e)  Suppose you want the error to be no more than 0.01.  
+     Use the Tangent Line Error Bound to find an interval around zero
+     on which you can be sure the error is at most 0.01.
+     Note:  The answer is not just the interval but also the argument
+     showing that the bound on that interval is at most 0.01.
+     The answer is not unique.
+
+\end{document}
+
+
+
+
