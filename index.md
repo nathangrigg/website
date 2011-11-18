@@ -19,7 +19,7 @@ Seattle, WA 98195-4350<br/>
 </div>
 
 <div id="more-about-me">
-<p><a href="me.html" onclick="moreMe(); return false">more about me</a></p>
+<p><a href="me/" onclick="moreMe(); return false">more about me</a></p>
 </div>
 
 
