@@ -113,7 +113,7 @@ body.oscillations li.oscillations
 	border-top-right-radius: 3px 5px;
 	border-top-left-radius: 3px 5px;
 	background: white;
-	border-bottom: 1px solid white;
+	border-bottom: 4px solid white;
 }
 
 body.teaching li.teaching a,
