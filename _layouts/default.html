@@ -10,23 +10,8 @@
 	{% endif %}
 
     <!--loading js before css to work-around webkit background drawing bug-->
-    <!--Make Internet Explorer recognize HTML5 tags-->
-    <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--jquery for enabling collapsing lists-->
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.5.1.min.js">
-	</script>
-    <!--various functions for collapsing menus, proxifying links, etc-->
-    <script type ="text/javascript" src="{{ site.url }}files/js/functions.js">
-	</script>
-
-	<!--mathjax script for displaying latex maths-->
-	<script src="https://d3eoax9i5htok0.cloudfront.net/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+	<meta name="viewport" content="width=700">
     <link rel="stylesheet" href="{{ site.url }}/files/css/style.css" />
-    <!--[if !IE]>-->
-    		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--[endif]-->
     <link rel="shortcut icon" href="{{ site.url }}files/img/infinity.png" />
     <link rel="apple-touch-icon" href="{{ site.url }}files/img/iphone-icon.png" />
 
@@ -38,6 +23,17 @@
 
 	{{ content }}
 
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try{
+var pageTracker = _gat._getTracker("UA-18206371-1");
+pageTracker._trackPageview();
+} catch(err) {}
+</script>
 
 </body>
 </html>
