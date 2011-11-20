@@ -47,3 +47,7 @@ Currently supported by a research grant
 [wi09]: {{ site.url }}math112/wi09/
 [au08]: {{ site.url }}math111/au08/
 [au07]: {{ site.url }}math124/au07/
+
+# Resources
+
+- [Animiations]({{ site.url }}animations/)
