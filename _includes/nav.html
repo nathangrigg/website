@@ -1,0 +1,15 @@
+<nav>
+    <ul>
+        {% for section in page.sections %}
+        {% capture downcase_section %}{{section | downcase}}{% endcapture %}
+        {% capture downcase_page_section %}{{page.section | downcase}}{% endcapture %}
+   		{% if downcase_section == downcase_page_section %}
+		<li class="selected">
+		{% else %}
+		<li>
+		{% endif %}
+		<a href="{{site.url}}{{page.base}}{{ section | downcase }}">{{ section }}</a></li>
+		{% endfor %}
+		&nbsp;
+	</ul>
+</nav>

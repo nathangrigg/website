@@ -3,9 +3,12 @@
 </h1>
 <nav>
     <ul>
-        <li class="teaching"><a href="{{ site.url }}teaching/">Teaching</a></li>
-        <li class="research"><a href="{{ site.url }}research/">Research</a></li>
+        {% if page.section == "teaching" %}<li class="selected">{% else %}<li>{% endif %}
+        	<a href="{{ site.url }}teaching/">Teaching</a></li>
+        {% if page.section == "research" %}<li class="selected">{% else %}<li>{% endif %}
+            <a href="{{ site.url }}research/">Research</a></li>
         <li class="cv"><a href="{{ site.url }}Nathan-Grigg-CV.pdf">CV</a></li>
-        <li class="me"><a href="{{ site.url }}me/">Me</a></li>
+        {% if page.section == "me" %}<li class="selected">{% else %}<li>{% endif %}
+            <a href="{{ site.url }}me/">Me</a></li>
     </ul>
 </nav>

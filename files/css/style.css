@@ -97,16 +97,7 @@ nav li {
 
 /* tab effect */
 
-body.teaching li.teaching,
-body.cv li.cv,
-body.research li.research,
-body.me li.me,
-body.homework li.homework,
-body.quizzes li.quizzes,
-body.worksheets li.worksheets,
-body.exams li.exams,
-body.syllabus li.syllabus,
-body.oscillations li.oscillations
+li.selected
 {
 	-moz-border-radius-topright: 5px;
 	-moz-border-radius-topleft: 5px;
@@ -116,16 +107,7 @@ body.oscillations li.oscillations
 	border-bottom: 4px solid white;
 }
 
-body.teaching li.teaching a,
-body.cv li.cv a,
-body.research li.research a,
-body.me li.me a,
-body.homework li.homework a,
-body.quizzes li.quizzes a,
-body.worksheets li.worksheets a,
-body.exams li.exams a,
-body.syllabus li.syllabus a,
-body.oscillations li.oscillations a
+li.selected a
 {
 	color: black;
 }

@@ -2,12 +2,4 @@
    <a href="{{site.url}}{{page.base}}">{{page.coursetitle}}</a>
    <span id ="backlink">(<a href="{{site.url}}">Nathan Grigg</a>)</span>
 </h1>
-<nav>
-    <ul>
-        {% for section in page.sections %}
-		<li class="{{ section | downcase }}"><a
-			href="{{site.url}}{{page.base}}{{ section | downcase }}">{{ section }}</a></li>
-		{% endfor %}
-		&nbsp;
-	</ul>
-</nav>
+{% include nav.html %}
