@@ -1,6 +1,6 @@
 ---
 layout: 324su11
-feed: http://math.washington.edu/~grigg/math324/su11/announce.rss
+feed: http://staff.washington.edu/grigg/math324/su11/announce.rss
 title: Math 324
 ---
 
@@ -9,10 +9,10 @@ title: Math 324
 
 Please check back often to keep up to date on class announcements or subscribe to the [RSS feed][rss].
 
-[rss]: http://math.washington.edu/~grigg/math324/su11/announce.rss
+[rss]: http://staff.washington.edu/grigg/math324/su11/announce.rss
 
 - **Answers to final exam.**
-  Here are the <a href='http://math.washington.edu/~grigg/math324/su11/exams/final-ans.pdf'>answers</a>. Grades will be posted on Catalyst as soon as I am done grading.
+  Here are the <a href='http://staff.washington.edu/grigg/math324/su11/exams/final-ans.pdf'>answers</a>. Grades will be posted on Catalyst as soon as I am done grading.
   [Fri Aug 19]
 - **Exam pick up.**
   I will be in my office from 9-10 am on Tuesday, August 23, to return exams or answers questions you have about the exam. If you don't pick up your exam on Tuesday, you can send me an email in October, November, or December to pick up your exam. After that, they will be shredded.
@@ -21,7 +21,7 @@ Please check back often to keep up to date on class announcements or subscribe t
   I will be holding special office hours on Thursday from 2-3. This is in addition to my standard office hours Wednesday at 3:30.
   [Wed Aug 17]
 - **Final Exam Take Home Problem.**
-  You should get started now on the <a href='http://math.washington.edu/%7Egrigg/math324/su11/exams/final-home.pdf'>take home problem</a> for the final exam. This problem is due at the beginning of class on Friday, August 19. Information about the final exam is posted on <a href="http://math.washington.edu/%7Egrigg/math324/su11/exams/final-info.html">this page</a>.
+  You should get started now on the <a href='http://staff.washington.edu/grigg/math324/su11/exams/final-home.pdf'>take home problem</a> for the final exam. This problem is due at the beginning of class on Friday, August 19. Information about the final exam is posted on <a href="http://staff.washington.edu/grigg/math324/su11/exams/final-info.html">this page</a>.
   [Mon Aug 15]
 - **Sample Final Exam.**
   You can begin to prepare for the final exam by looking at this practice final (no longer exists). Notice that the practice final is a 2-hour exam, so is longer than your exam will be. Also, do not neglect to study something just because it is not on the practice exam.

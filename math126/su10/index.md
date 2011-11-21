@@ -12,7 +12,7 @@ title: Math 126
 ## Course Information
 
 -   [Syllabus](syllabus-math126.pdf)
--   [Homework assignments](homework.html)
+-   [Homework assignments](homework/)
 -   [Taylor Notes](http://www.math.washington.edu/~m126/TaylorNotes.pdf)
 -   [Catalyst Grade
     Book](https://catalysttools.washington.edu/gradebook/grigg/28699)
@@ -54,15 +54,15 @@ title: Math 126
 ## Sample first midterm problems
 
 -   [Sample 1](mid-sample1.pdf) and
-    [Answers](http://math.washington.edu/~grigg/math126/mid-sample1-ans.pdf)
+    [Answers](mid-sample1-ans.pdf)
 -   [Sample 2](mid-sample2.pdf) and
-    [Answers](http://math.washington.edu/~grigg/math126/mid-sample2-ans.pdf)
+    [Answers](mid-sample2-ans.pdf)
 -   [Sample 3](mid-sample3.pdf)
 -   [Sample 4](mid-sample4.pdf)
 
 ## Other
 
--   [Arc Length Animation](/~grigg/animations/ArcLengthAnimation.html)
+-   [Arc Length Animation](/grigg/animations/ArcLengthAnimation.html)
 -   [Notes on parametrization](notes1.pdf)
 
 ## Contact me

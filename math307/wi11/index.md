@@ -16,12 +16,12 @@ title: Math 307
 -   **Tuesday office hours.** I will hold office hours from 2:30 to 4:30
     on Tuesday, in my office. (posted 10 Mar)
 -   **Sample Final Exam.** There is a sample final exam on the [exams
-    page](http://math.washington.edu/~grigg/math307/wi11/exams/). I will post
+    page](http://staff.washington.edu/grigg/math307/wi11/exams/). I will post
     answers there soon also. You could also study for the final exam by
     reviewing the past exams and homework problems. (posted 10 Mar)
 -   **Homework and Review Assignment.** Your last homework ([Homework
-    7](http://math.washington.edu/~grigg/math307/wi11/homework/))
-    and review assignment ([Final Review    Assignment](http://math.washington.edu/~grigg/math307/wi11/homework/)) are due Friday. (posted 9 Mar)
+    7](http://staff.washington.edu/grigg/math307/wi11/homework/))
+    and review assignment ([Final Review    Assignment](http://staff.washington.edu/grigg/math307/wi11/homework/)) are due Friday. (posted 9 Mar)
 -   **Office Hours Change.** On Thursday, March 3, my morning office
     hours will be from 9:30 to 10:20 instead of the usual time. UPDATE:
     The afternoon office hours will be from 3:00 to 4:00. (posted 2 Mar)
@@ -30,23 +30,23 @@ title: Math 307
     book](https://catalyst.uw.edu/gradebook/grigg/38440). Please check
     to make sure your grades are input correctly. (posted 1 Mar)
 -   **Homework.** [Homework
-    6](http://math.washington.edu/~grigg/math307/wi11/homework/) is
+    6](http://staff.washington.edu/grigg/math307/wi11/homework/) is
     due Friday. (posted 1 Mar)
 -   **CLUE review session.** CLUE is holding a review session for Math
     307 at Mary Gates Hall on Tuesday 2/22. It starts at 7pm and goes
     till 9pm. (posted 16 Feb)
 -   **Sample exam materials.** There are sample problems (written by
     you) and a sample exam (written by me) posted on the [exams
-    page](http://math.washington.edu/~grigg/math307/wi11/exams/). Good luck
+    page](http://staff.washington.edu/grigg/math307/wi11/exams/). Good luck
     studying! (posted 16 Feb)
 -   **Animations.** A few of the animations from class today are posted
     on my website [animations
-    page](http://math.washington.edu/~grigg/animations/oscillations/).
+    page](http://staff.washington.edu/grigg/animations/oscillations/).
     (posted 16 Feb)
 -   **Worksheet.** You can download the
-    [worksheet](http://math.washington.edu/~grigg/math307/wi11/worksheet2.pdf)
+    [worksheet](http://staff.washington.edu/grigg/math307/wi11/worksheet2.pdf)
     we did in class on Monday and the
-    [solutions](http://math.washington.edu/~grigg/math307/wi11/worksheet2-ans.pdf).
+    [solutions](http://staff.washington.edu/grigg/math307/wi11/worksheet2-ans.pdf).
     This would be a good way to practice for the exam if you missed it
     or if you did it but got different answers. (posted 16 Feb)
 -   **Exam 2.** The second exam will be given in class on Wednesday,
@@ -56,56 +56,56 @@ title: Math 307
 -   **Homework 4 and office hours.** Remember: The last chance to see me
     during office hours before Exam 2 is Thursday in the usual place at
     the usual time. Also, [Homework
-    5](http://math.washington.edu/~grigg/math307/wi11/homework/) is
+    5](http://staff.washington.edu/grigg/math307/wi11/homework/) is
     due Friday. (posted 15 Feb)
 -   **Exam 2 Review Assignment.** Due Wednesday in class or by 5:00pm
     via email. [Details
-    here](http://math.washington.edu/~grigg/math307/wi11/homework/).
+    here](http://staff.washington.edu/grigg/math307/wi11/homework/).
     (posted 15 Feb)
 -   **Sinusoidal notes.** You will need to compute periods, frequencies,
     and amplitudes for your homework due Friday. As promised, I have
     made some [cosine
-    notes](http://math.washington.edu/~grigg/math307/wi11/cosine.pdf) to help
+    notes](http://staff.washington.edu/grigg/math307/wi11/cosine.pdf) to help
     you out on this. (posted 9 Feb)
 -   **Homework 4.** Reminder: [Homework
-    4](http://math.washington.edu/~grigg/math307/wi11/homework/) is
+    4](http://staff.washington.edu/grigg/math307/wi11/homework/) is
     due this Friday. (posted 8 Feb)
 -   **Homework 3.** [Homework
-    3](http://math.washington.edu/~grigg/math307/wi11/homework/) is
+    3](http://staff.washington.edu/grigg/math307/wi11/homework/) is
     due Friday. (posted 31 Jan)
 -   **Exam solutions.** The solutions are posted on the [exams
-    page](http://math.washington.edu/~grigg/math307/wi11/exams/). (posted 25
+    page](http://staff.washington.edu/grigg/math307/wi11/exams/). (posted 25
     Jan)
 -   **Homework 2.** Reminder: [Homework
-    2](http://www.math.washington.edu/~grigg/math307/wi11/homework/)
+    2](http://staff.washington.edu/grigg/math307/wi11/homework/)
     is due tomorrow. (posted 20 Jan)
 -   **Sample Exam.** A sample exam is posted on the [exams
-    page](http://math.washington.edu/~grigg/math307/wi11/exams/). (posted 20
+    page](http://staff.washington.edu/grigg/math307/wi11/exams/). (posted 20
     Jan)
 -   **Homework Guidelines.** The homework grader has asked me to remind
     you of some [homework
-    guidelines](http://math.washington.edu/~grigg/math307/wi11/homework-guidelines.html)
+    guidelines](http://staff.washington.edu/grigg/math307/wi11/homework-guidelines.html)
     that you should be following. Please make sure your homework is
     always organized and stapled. (posted 19 Jan)
 -   **Computer integration.** There may be some problems that I assigned
     (like 2.3.22) where the calculus gets very complicated. You may want
     to use a computer to do the integration for you. I suggest
-    [wolframalpha.com](http://wolframalpha.com). To see how it works,
+    [wolframalpha.com](http://www.wolframalpha.com). To see how it works,
     you might try entering `integrate dv/(9.8+v^2/198.75)` into the
     search box. (posted 13 Jan)
 -   **Volunteer opportunity.** If you are going to be around for spring
     break, you might volunteer to help at Math Day. Free lunch, and a
     chance to see some of the interesting math-related stuff going on
     around campus.
-    [Flier](http://math.washington.edu/~grigg/math307/wi11/mathday2011.pdf).
+    [Flier](http://staff.washington.edu/grigg/math307/wi11/mathday2011.pdf).
     (posted 13 Jan)
 -   **Modeling examples.** If you would like to see the problem we did
     in class Wednesday along with another modeling problem, see
-    [modeling.pdf](http://math.washington.edu/~grigg/math307/wi11/modeling.pdf).
+    [modeling.pdf](http://staff.washington.edu/grigg/math307/wi11/modeling.pdf).
     (posted 13 Jan)
 -   **Exam 1 Review Assignment.** For more information on the review
     assignment, see the
-    [Homework](http://math.washington.edu/~grigg/math307/wi11/homework/)
+    [Homework](http://staff.washington.edu/grigg/math307/wi11/homework/)
     page. You must turn it in in class or email it to me by 5:00pm on
     Wednesday, January 19. (posted 12 Jan)
 -   **Homework 1 due Friday.** Homework 1 is due Friday in class.
@@ -115,17 +115,17 @@ title: Math 307
 -   **First class notes and worksheet.** This is definitely the last
     slides-based presentation you will see me give, but there was a lot
     of information to cover on the first day. Here are [the
-    slides](http://math.washington.edu/~grigg/math307/wi11/slides-ch1.pdf).
+    slides](http://staff.washington.edu/grigg/math307/wi11/slides-ch1.pdf).
     Also, here is the
-    [worksheet](http://math.washington.edu/~grigg/math307/wi11/worksheet1.pdf),
+    [worksheet](http://staff.washington.edu/grigg/math307/wi11/worksheet1.pdf),
     which is due on Friday. (posted 3 Jan)
 -   **Textbook info.** We are using the 9th edition of Boyce & DiPrima's
     differential equations book. If you would like to use the 8th
     edition, please see this [information
-    page](http://math.washington.edu/~grigg/math307/wi11/textbook.html).
+    page](http://staff.washington.edu/grigg/math307/wi11/textbook.html).
     (posted 1 Jan)
 -   **Welcome to Math 307i.** During the first week of class, you should
-    read the   [syllabus](http://www.math.washington.edu/~grigg/math307/wi11/syllabus-math307i.pdf)
+    read the   [syllabus](http://staff.washington.edu/grigg/math307/wi11/syllabus-math307i.pdf)
     and look over the class web page. Throughout the quarter,
     announcements about assignments and exams will be posted here. It is
     your responsibility to check back from time to time or subscribe to

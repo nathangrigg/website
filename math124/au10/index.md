@@ -18,7 +18,7 @@ here: [final-worksheet-solutions2.pdf](final-worksheet-solutions2.pdf)
 -   [Dr. Pezzoli's web
     site](http://math.washington.edu/~pezzoli/classes/124/124.html)
     (worksheets and schedule)
--   [Webassign](http://webassign.net/washington/login.html)
+-   [Webassign](https://www.webassign.net/washington/login.html)
 
 # Office Hours
 

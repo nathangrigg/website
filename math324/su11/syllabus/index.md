@@ -8,7 +8,7 @@ title: Syllabus
 
 **Instructor:** Nathan Grigg (<grigg@uw.edu>)
 
-**Class web page:** <http://math.washington.edu/~grigg/math324/su11.html>. You are expected to monitor the website for announcements and homework assignments. You may also subscribe to the RSS feed linked there.
+**Class web page:** <http://staff.washington.edu/grigg/math324/su11/>. You are expected to monitor the website for announcements and homework assignments. You may also subscribe to the RSS feed linked there.
 
 **Textbook:** *Multivariable Calculus* (Volume 2 of a custom version of *Stewart, 6th edition, Early Transcendentals*). You may be able to use other editions of the book.
 

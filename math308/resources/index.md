@@ -7,7 +7,7 @@ title: Computer Resources
 
 #### A&S Remote Desktop.
 
-See [this page](/~grigg/math308/remote-desktop.html) to see how you can
+See [this page](/grigg/math308/remote-desktop.html) to see how you can
 connect to the College of Arts and Sciences' computer lab from the
 comfort of your home. This is a very good way to have access to Matlab
 and Maple while you are a UW student.
