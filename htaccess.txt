@@ -4,6 +4,12 @@ permalink: .htaccess
 ---
 
 Redirect 410 /grigg/teaching-blog
+Redirect 410 /grigg/personal-blog
+Redirect 301 /grigg/publications http://staff.washington.edu/grigg/research/publications
+Redirect 301 /grigg/current-research.html http://staff.washington.edu/grigg/research/
+Redirect 301 /grigg/curriculum-vitae.html http://staff.washington.edu/grigg/
+Redirect 301 /grigg/cv.pdf http://staff.washington.edu/grigg/Nathan-Grigg-CV.pdf
+Redirect 301 /grigg/courses.html http://staff.washington.edu/grigg/teaching/
 
 RewriteEngine On
 RewriteBase /grigg
