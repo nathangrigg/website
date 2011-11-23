@@ -1,7 +1,10 @@
 ---
 layout: none
 permalink: .htaccess
+sitemap: false
 ---
+ErrorDocument 404 /grigg/404.html
+ErrorDocument 410 /grigg/410.html
 
 Redirect 410 /grigg/teaching-blog
 Redirect 410 /grigg/personal-blog
