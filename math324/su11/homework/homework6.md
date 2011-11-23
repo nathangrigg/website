@@ -1,6 +1,7 @@
 ---
 layout: 324su11
 title: Homework 6
+section: homework
 ---
 
 # Homework 6

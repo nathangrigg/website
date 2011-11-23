@@ -1,6 +1,7 @@
 ---
 layout: 324su11
 title: Homework 8
+section: homework
 ---
 
 # Homework 8
