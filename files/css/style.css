@@ -60,7 +60,7 @@ nav {
     display: block;
     width: auto;
     text-align: right;
-    font-size: small;
+    font-size: 0.85em;
     margin: 0em;
     padding: 0em;
 }
@@ -91,7 +91,7 @@ nav li {
 }
 
 #backlink {
-	font-size: medium;
+	font-size: 0.5em;
 	color: white;
 }
 
@@ -154,4 +154,14 @@ nav {
 }
 body{
 	border: 0px;
+}
+}
+
+/* Small Devices */
+@media only screen and (max-device-width: 480px) {
+body {width: 860px;
+	font-size: 2em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
 }
