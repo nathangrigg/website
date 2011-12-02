@@ -4,12 +4,13 @@ layout: ~NNN~~QQ~~YY~
 feed: atom.xml
 ---
 
-{% for post in site.categories.~QQ~~YY~ %}
-{% if post.categories contains "math~QQQ~" %}
-<div class="post-title"><h1>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-</h1></div>
-{{ post.content }}
+<p class="office-hours">{% include office-hours.html %}</p>
 
+{% for post in site.categories.~QQ~~YY~ %}
+{% if post.categories contains "math~NNN~" %}
+<article>
+<h1 class="entry"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+{{ post.content }}
+</article>
 {% endif %}
 {% endfor %}
