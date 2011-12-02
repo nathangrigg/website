@@ -1,6 +1,5 @@
 ---
 layout: 308sp10
-title: Math 308
 ---
 
 ## Course Information

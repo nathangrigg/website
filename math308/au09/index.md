@@ -1,6 +1,5 @@
 ---
 layout: 308au09
-title: Math 308
 ---
 
 # Announcements

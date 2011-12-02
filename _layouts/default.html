@@ -5,8 +5,11 @@
     {% if page.keywords %}
  	<meta name="keywords" content="{{ page.keywords }}">
  	{% endif %}
+ 	{% if page.description %}
+ 	<meta name="description" content="{{ page.description }}">
+ 	{% endif %}
  	{% if page.feed %}
-   	<link rel="alternate" type="application/atom+xml" href="{{ page.feed }}" title="RSS feed" />
+   	<link rel="alternate" type="application/atom+xml" href="{{ page.feed }}" title="Atom feed" />
 	{% endif %}
 
 	{% if page.mathjax %}
@@ -18,7 +21,12 @@
     <link rel="shortcut icon" href="{{ site.url }}files/img/infinity.png" />
     <link rel="apple-touch-icon" href="{{ site.url }}files/img/iphone-icon.png" />
 
-	<title>{{ page.title }}</title>
+
+	{% if page.htmltitle %}
+	<title>{{ page.htmltitle }}</title>
+	{% else %}
+	<title>{{ page.title }}{% if page.title and page.titlesuffix %} - {% endif %}{{ page.titlesuffix }}</title>
+	{% endif %}
 
 </head>
 

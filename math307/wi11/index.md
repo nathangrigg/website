@@ -1,6 +1,5 @@
 ---
 layout: 307wi11
-title: Math 307
 ---
 
 ## Announcements

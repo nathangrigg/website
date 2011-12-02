@@ -1,6 +1,5 @@
 ---
 layout: 125su09
-title: Math 125
 ---
 
 ## Course Information

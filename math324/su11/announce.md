@@ -1,6 +1,6 @@
 ---
 layout: 324su11
-title: Math 324 Announcements
+title: Announcements
 ---
 
 <!-- this file is automatically created-->

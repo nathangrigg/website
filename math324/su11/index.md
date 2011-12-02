@@ -1,7 +1,6 @@
 ---
 layout: 324su11
 feed: http://staff.washington.edu/grigg/math324/su11/announce.rss
-title: Math 324
 ---
 
 

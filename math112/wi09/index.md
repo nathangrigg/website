@@ -1,6 +1,5 @@
 ---
 layout: 112wi09
-title: Math 112
 ---
 
 # Course information

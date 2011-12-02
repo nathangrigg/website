@@ -1,6 +1,9 @@
 ---
 layout: me
-title: Nathan Grigg - University of Washington
+title: Nathan Grigg
+titlesuffix: University of Washington
+keywords: Nathan Grigg, math, University of Washington, graduate student, contact, email, courses, teaching, research, algebraic geometry
+description: Nathan Grigg is a mathematics graduate student at the University of Washington. These pages contain his contact, research, and teaching information.
 ---
 
 <div style="text-align: center">

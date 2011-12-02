@@ -1,6 +1,5 @@
 ---
 layout: 124au07
-title: Math 124 Autumn 2007
 ---
 
 # Final Review
