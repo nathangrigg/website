@@ -1,0 +1,13 @@
+---
+titlesuffix: Math ~NNN~ - ~Quarter~ ~YYYY~
+layout: ~NNN~~QQ~~YY~
+feed: atom.xml
+---
+
+<p class="office-hours">{% include office-hours.html %}</p>
+
+{% for post in site.categories.~QQ~~YY~ %}
+{% if post.categories contains "math~NNN~" %}
+{% include post.html %}
+{% endif %}
+{% endfor %}
