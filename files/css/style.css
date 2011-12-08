@@ -1,5 +1,4 @@
 /* SITE WIDE BASIC SETTINGS */
-
 body {
 	font-family: Georgia, serif;
 	width: 550px;
@@ -31,63 +30,63 @@ h1 {
 	font-weight: normal;
 	font-size: 1.5em;
 }
+
 h2 {
 	font-weight: normal;
 	font-size: 1.2em;
 }
 
 /* HEADER AND NAV SETTINGS */
-
 header {
-    display: block;
-    margin-bottom: 0px;
-    margin-left: -2em;
-    margin-right: -2em;
-    padding-top: 2ex;
-    background:  #483D8B;
-    border-bottom: 1px solid #483D8B;
+	display: block;
+	margin-bottom: 0px;
+	margin-left: -2em;
+	margin-right: -2em;
+	padding-top: 2ex;
+	background: #483D8B;
+	border-bottom: 1px solid #483D8B;
 }
 
 header a {
 	color: white;
 }
 
-header a:hover{
+header a:hover {
 	color: white;
 }
 
 nav {
-    display: block;
-    width: auto;
-    text-align: right;
-    font-size: 0.85em;
-    margin: 0em;
-    padding: 0em;
+	display: block;
+	width: auto;
+	text-align: right;
+	font-size: 0.85em;
+	margin: 0em;
+	padding: 0em;
 }
 
 nav ul {
-    margin-left: 1em;
-    margin-right: 1em;
-    padding-right: 0em;
-    display: inline;
-    width: auto;
+	margin-left: 1em;
+	margin-right: 1em;
+	padding-right: 0em;
+	display: inline;
+	width: auto;
 }
 
 nav li {
 	margin-left: .2em;
 	margin-right: .2em;
-    padding: .1em .5em 0em .5em;
-    display: inline;
-    width: auto;
+	padding: .1em .5em 0em .5em;
+	display: inline;
+	width: auto;
 }
 
 #main-title {
-    padding: 0em;
-    text-align: left;
-    font-size: 4ex;
-    font-weight: normal;
-    margin: 0em;
-    margin-left: 1em;
+	padding: 0em;
+	text-align: left;
+	font-size: 4ex;
+	font-weight: normal;
+	margin: 0em;
+	margin-left: 1em;
 }
 
 #backlink {
@@ -96,9 +95,7 @@ nav li {
 }
 
 /* tab effect */
-
-li.selected
-{
+li.selected {
 	-moz-border-radius-topright: 5px;
 	-moz-border-radius-topleft: 5px;
 	border-top-right-radius: 3px 5px;
@@ -107,61 +104,80 @@ li.selected
 	border-bottom: 4px solid white;
 }
 
-li.selected a
-{
+li.selected a {
 	color: black;
 }
 
-
-/* MORE ABOUT ME */
-#me {
-	display: none;
-	margin-top: 6ex;
+/* Post headings */
+h1.entry {
+	font-size: 1.1em;
+	font-weight: bold;
 }
 
-#more-about-me, #less-about-me {
-	text-align: center
+span.date {
+	font-size: 0.9em;
+	font-weight: normal;
+	margin-left: 0.25em;
 }
+
+h1.entry a {
+	color: black;
+}
+
+hr.separator {
+	margin: 3em 0 3em 0;
+	border-width: 0px;
+}
+
 
 /* TABLES */
 table {
 	border-collapse: collapse;
 }
+
 th {
 	border-bottom: 1px solid black;
 	text-align: left;
 }
+
 td {
 	padding: 0 8px 0 8px;
 }
 
 /* PRINT */
-@media print{
-header {
-	background: white;
-	border-bottom: 0px;
-	margin-bottom: 2em;
-	margin-top: 2em;
-}
-header a {
-	color: black;
-}
-nav {
-	display: none;
-}
-#content{
-	border-top: 2px solid black;
-}
-body{
-	border: 0px;
-}
+
+@media print {
+	header {
+		background: white;
+		border-bottom: 0px;
+		margin-bottom: 2em;
+		margin-top: 2em;
+	}
+
+	header a {
+		color: black;
+	}
+
+	nav {
+		display: none;
+	}
+
+	#content {
+		border-top: 2px solid black;
+	}
+
+	body {
+		border: 0px;
+	}
 }
 
 /* Small Devices */
+
 @media only screen and (max-device-width: 480px) {
-body {width: 860px;
-	font-size: 2em;
-	padding-left: 1em;
-	padding-right: 1em;
-}
+	body {
+		width: 860px;
+		font-size: 2em;
+		padding-left: 1em;
+		padding-right: 1em;
+	}
 }
