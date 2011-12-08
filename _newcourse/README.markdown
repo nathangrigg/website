@@ -1,10 +1,9 @@
 - Copy the contents of the folder to mathNNN/QQYY/
 - Delete unused sections (e.g. quizzes)
-- Rename NNNQQYY.html and NNNQQYY-post.html and move to _layouts
 - Replace:
 	- ~NNN~ with course number
 	- ~QQ~ with quarter (au, wi, sp, su)
 	- ~YY~ with 2-digit year
 	- ~YYYY~ with 4-digit year
 	- ~Quarter~ with quarter, spelled out
-
+- Rename NNNQQYY.html and NNNQQYY-post.html and move to _layouts

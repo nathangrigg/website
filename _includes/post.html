@@ -1,7 +1,9 @@
 <article>
-<h1 class="entry"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+<h1 class="entry"><a href="{{ post.url }}">{{ post.title }}</a>
+<span class="date"> ({{ post.date | date:"%a, %b %e"}})</span></h1>
 {{ post.content }}
 </article>
+<hr class="separator">
 
 {% comment %}
 I want to add a date, and make the titles of posts black and smaller
