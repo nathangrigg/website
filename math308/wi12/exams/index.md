@@ -4,4 +4,4 @@ layout: 308wi12-post
 section: exams
 ---
 
-Exams will go here
+Information about exams, such as practice exams and answers to midterm exams, will be posted here later in the quarter.

@@ -6,7 +6,7 @@ title: Nathan Grigg's Teaching
 
 # Current
 
-Currently supported by a research grant
+Teaching [Math 308][wi12] during Winter 2012.
 
 # Past
 
@@ -35,6 +35,7 @@ Currently supported by a research grant
 - Autumn 2007
 	- [Calculus I][au07] (124)
 
+[wi12]: {{ site.url }}math308/wi12/
 [su11]: {{ site.url }}math324/su11/
 [wi11]: {{ site.url }}math307/wi11/
 [au10]: {{ site.url }}math124/au10/

@@ -11,6 +11,8 @@ description: Nathan Grigg is a mathematics graduate student at the University of
 <p>I am a mathematics graduate student<br />
  at the University of Washington.</p>
 
+<p>I’m currently teaching <a href="math308/wi12/">Math 308</a>.</p>
+
 <img width="250" style="border:2px solid" alt="Nathan Grigg" src="{{ site.url }}files/img/nathangrigg.jpeg">
 
 <p>Box 354350<br/>

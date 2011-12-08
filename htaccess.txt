@@ -37,7 +37,7 @@ RewriteEngine On
 RewriteBase /grigg
 RewriteRule ^math404/$ math404/sp09/ [L,R=301]
 RewriteRule ^math324/$ math324/su11/ [L,R=301]
-RewriteRule ^math308/$ math308/sp10/ [L,R=301]
+RewriteRule ^math308/$ math308/wi12/ [L,R=301]
 RewriteRule ^math307/$ math307/wi11/ [L,R=301]
 RewriteRule ^math126/$ math126/su10/ [L,R=301]
 RewriteRule ^math125/$ math125/su09/ [L,R=301]
