@@ -1,0 +1,13 @@
+---
+titlesuffix: Math 308 - Winter 2012
+layout: 308wi12
+feed: atom.xml
+---
+
+<p class="office-hours">{% include office-hours.html %}</p>
+
+{% for post in site.categories.wi12 %}
+{% if post.categories contains "math308" %}
+{% include post.html %}
+{% endif %}
+{% endfor %}
