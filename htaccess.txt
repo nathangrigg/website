@@ -30,6 +30,7 @@ Redirect 301 /grigg/math324/homework/su11 http://staff.washington.edu/grigg/math
 Redirect 301 /grigg/math324/su11-syllabus.html http://staff.washington.edu/grigg/math324/su11/syllabus/
 Redirect 301 /grigg/math124/index.php http://staff.washington.edu/grigg/math124/
 Redirect 301 /grigg/math111/index.php http://staff.washington.edu/grigg/math111/
+Redirect 301 /grigg/math126/worksheets http://staff.washington.edu/grigg/math126/su10/worksheets
 
 # Shortcuts for latest course taught
 RewriteEngine On
