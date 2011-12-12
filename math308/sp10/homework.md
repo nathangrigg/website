@@ -44,7 +44,7 @@ two).<br>
 **3.6:** 1, 2, 5, 9, 10, 13, 14, 15, 20, 21, 22, 28.<br>
  **3.7:** 1, 2, 3, 8, 9, 10, 11, 19, 21, 22, 25, 26, 28, 29, 33, 40.<br>
  **3.8:** 3, 4, 7, 8, 11, 13, 14.<br>
- **Essay: ** [Linear regression
+ **Essay:** [Linear regression
 project](essay-linear-regression-matlab.pdf). (for a video explanation
 of how to do this project in MATLAB, [click
 here](http://screencast.com/t/MjFiY2E1))<br>
@@ -67,7 +67,7 @@ eigenvalues](essay-eigenvalues-2by2.pdf)<br>
 
 ## Homework 9
 
-** 4.7: ** [Eigenbasis problems](eigenbasis.pdf) and
+**4.7:** [Eigenbasis problems](eigenbasis.pdf) and
 [Answers](eigenbasis-ans.pdf).<br>
  **Not collected**
 
