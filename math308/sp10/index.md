@@ -14,7 +14,7 @@ layout: 308sp10
 
 ## Exams
 
--   [Exams from previous quarters]({{site.url}}math308/exams/)
+-   [Exams from previous quarters]({{site.url}}/math308/exams/)
 
 ## Contact me
 

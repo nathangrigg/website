@@ -35,20 +35,20 @@ Teaching [Math 308][wi12] during Winter 2012.
 - Autumn 2007
 	- [Calculus I][au07] (124)
 
-[wi12]: {{ site.url }}math308/wi12/
-[su11]: {{ site.url }}math324/su11/
-[wi11]: {{ site.url }}math307/wi11/
-[au10]: {{ site.url }}math124/au10/
-[su10]: {{ site.url }}math126/su10/
-[sp10]: {{ site.url }}math308/sp10/
-[wi10]: {{ site.url }}math308/wi10/
-[au09]: {{ site.url }}math308/au09/
-[su09]: {{ site.url }}math125/su09/
-[sp09]: {{ site.url }}math404/sp09/
-[wi09]: {{ site.url }}math112/wi09/
-[au08]: {{ site.url }}math111/au08/
-[au07]: {{ site.url }}math124/au07/
+[wi12]: {{ site.url }}/math308/wi12/
+[su11]: {{ site.url }}/math324/su11/
+[wi11]: {{ site.url }}/math307/wi11/
+[au10]: {{ site.url }}/math124/au10/
+[su10]: {{ site.url }}/math126/su10/
+[sp10]: {{ site.url }}/math308/sp10/
+[wi10]: {{ site.url }}/math308/wi10/
+[au09]: {{ site.url }}/math308/au09/
+[su09]: {{ site.url }}/math125/su09/
+[sp09]: {{ site.url }}/math404/sp09/
+[wi09]: {{ site.url }}/math112/wi09/
+[au08]: {{ site.url }}/math111/au08/
+[au07]: {{ site.url }}/math124/au07/
 
 # Resources
 
-- [Animiations]({{ site.url }}animations/)
+- [Animiations]({{ site.url }}/animations/)

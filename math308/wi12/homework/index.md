@@ -90,7 +90,7 @@ section: homework
 - 4.5: 13, 14, 15, 21, 22
 - 4.7: [Eigenbasis problems][eigenbasis]
 
-[eigenbasis]: {{site.url}}math308/sp10/eigenbasis.pdf
+[eigenbasis]: {{site.url}}/math308/sp10/eigenbasis.pdf
 [supplemental]: supplemental.pdf
 [cat2]: https://catalyst.uw.edu/webq/survey/grigg/152379
 [cat3]: https://catalyst.uw.edu/webq/survey/grigg/152380

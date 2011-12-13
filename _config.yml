@@ -1,4 +1,4 @@
 permalink: none
 exclude: [scripts,README.md]
-url: http://staff.washington.edu/grigg/
+url: http://staff.washington.edu/grigg
 markdown: kramdown

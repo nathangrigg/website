@@ -111,7 +111,7 @@ Please check back often to keep up to date on class announcements or subscribe t
 
 
 [map]: http://www.washington.edu/maps/?l=ART "Campus map"
-[plan]: {{ site.url }}files/img/art3.png "Floor plan"
+[plan]: {{ site.url }}/files/img/art3.png "Floor plan"
 [anon]: https://catalysttools.washington.edu/umail/form/grigg/2621
 
 

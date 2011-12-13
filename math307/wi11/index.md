@@ -145,7 +145,7 @@ Thursdays 10-11am and 4-5pm in
 [Art][Art] [336][336]
 
 [Art]: http://www.washington.edu/home/maps/northcentral.html?ART "Campus map"
-[336]: {{ site.url }}files/img/art3.png "Floor plan"
+[336]: {{ site.url }}/files/img/art3.png "Floor plan"
 
 ## Contact me
 

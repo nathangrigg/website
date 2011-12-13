@@ -1,14 +1,14 @@
 <h1 id="main-title">
-	<a href="{{ site.url }}" rel="home">Nathan Grigg</a>
+	<a href="{{ site.url }}/" rel="home">Nathan Grigg</a>
 </h1>
 <nav>
     <ul>
         {% if page.section == "teaching" %}<li class="selected">{% else %}<li>{% endif %}
-        	<a href="{{ site.url }}teaching/">Teaching</a></li>
+        	<a href="{{ site.url }}/teaching/">Teaching</a></li>
         {% if page.section == "research" %}<li class="selected">{% else %}<li>{% endif %}
-            <a href="{{ site.url }}research/">Research</a></li>
-        <li class="cv"><a href="{{ site.url }}Nathan-Grigg-CV.pdf">CV</a></li>
+            <a href="{{ site.url }}/research/">Research</a></li>
+        <li class="cv"><a href="{{ site.url }}/Nathan-Grigg-CV.pdf">CV</a></li>
         {% if page.section == "me" %}<li class="selected">{% else %}<li>{% endif %}
-            <a href="{{ site.url }}me/">Me</a></li>
+            <a href="{{ site.url }}/me/">Me</a></li>
     </ul>
 </nav>

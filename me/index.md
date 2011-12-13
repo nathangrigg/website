@@ -6,7 +6,7 @@ section: me
 
 I was born in Idaho, went to school at BYU in Utah, and now live in Seattle. I love to spend time with my wife and two daughters.
 
-<img alt="My daughters" style="width: 250px; display: block; margin-left: auto; margin-right: auto" src="{{ site.url }}files/img/hijas.jpg">
+<img alt="My daughters" style="width: 250px; display: block; margin-left: auto; margin-right: auto" src="{{ site.url }}/files/img/hijas.jpg">
 
 I also like playing around with computers. I probably spend more time figuring out ways to be more productive than the resulting increase in productivity saves. But I enjoy it, and sometimes I write about things I've done or learned on my [personal blog][blog].
 
