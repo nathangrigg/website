@@ -18,4 +18,4 @@ I maintain this site using [Jekyll][jek]. The site template and style files are 
 [jek]: http://jekyllrb.com/
 [repo]: https://github.com/nathan11g/website
 [twitter]: http://twitter.com/nathangrigg
-[key]: grigg.txt
+[key]: https://staff.washington.edu/grigg/me/grigg.asc
