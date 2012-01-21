@@ -35,7 +35,7 @@ section: homework
 
 <a name="3"></a>
 
-## Homework 3 due Jan 25
+## Homework 3 due Friday, Jan 27
 
 - 1.7: 1, 2, 16, 17, 40, [49 via Catalyst][cat3], 55
 - <span style="color:red;"><strike>1.8: 1, 3</strike> cancelled due to snow</span>
