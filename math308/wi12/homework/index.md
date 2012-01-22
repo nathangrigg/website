@@ -27,7 +27,7 @@ section: homework
 
 <a name="2"></a>
 
-## Homework 2 due Jan 18
+## Homework 2 due Monday, Jan 23
 
 - 1.5: 31, 32, 45, 46, 66
 - 1.6: 2, 4, 12, 14, 18, 26, 43, [47 via Catalyst][cat2]
