@@ -18,6 +18,9 @@ Redirect 301 /grigg/current-research.html http://staff.washington.edu/grigg/rese
 Redirect 301 /grigg/cv.pdf http://staff.washington.edu/grigg/Nathan-Grigg-CV.pdf
 Redirect 301 /grigg/courses.html http://staff.washington.edu/grigg/teaching/
 
+# oops, temporary redirect
+Redirect 301 /grigg/exams/ http://staff.washington.edu/grigg/math308/wi12/exams/
+
 # Popular old files that have moved
 Redirect 301 /grigg/math324/su11.html http://staff.washington.edu/grigg/math324/su11/
 Redirect 301 /grigg/math404/solutions http://staff.washington.edu/grigg/math404/sp09/solutions
