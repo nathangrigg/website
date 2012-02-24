@@ -7,9 +7,12 @@ section: exams
 # This quarter's exams
 
 - [Exam 1][e1] and [answers][e1a]
+- [Exam 2][e2] and [answers][e2a]
 
 [e1]: {{site.url}}/math308/wi12/exams/exam1.pdf
 [e1a]:  {{site.url}}/math308/wi12/exams/exam1-ans.pdf
+[e2]: {{site.url}}/math308/wi12/exams/exam2.pdf
+[e2a]: {{site.url}}/math308/wi12/exams/exam2-ans.pdf
 
 # Previous quarters' exams
 
