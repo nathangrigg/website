@@ -1,6 +1,6 @@
 ---
 title: Homework
-layout: 308wi12-post
+layout: 308wi12
 section: homework
 ---
 
@@ -8,6 +8,8 @@ section: homework
 	list-style-type: none;
 }
 </style>
+
+# Homework
 
 
 ## Resources
