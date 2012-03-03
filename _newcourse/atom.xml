@@ -8,10 +8,10 @@ coursetitle: Math ~NNN~
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>{{page.coursetitle}}</title>
- <link href="{{site.url}}/{{base}}atom.xml" rel="self"/>
- <link href="{{site.url}}/{{base}}"/>
+ <link href="{{site.url}}/{{page.base}}/atom.xml" rel="self"/>
+ <link href="{{site.url}}/{{page.base}}/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>{{site.url}}/{{base}}</id>
+ <id>{{site.url}}/{{page.base}}</id>
 
  <author>
    <name>Nathan Grigg</name>
@@ -24,7 +24,7 @@ coursetitle: Math ~NNN~
    <title>{{ post.title }}</title>
    <link href="{{ site.url }}{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>id:{{ post.id }}</id>
+   <id>{{site.url}}/{{page.base}}{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endif %}

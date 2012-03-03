@@ -1,6 +1,6 @@
 ---
 title: Exams
-layout: ~NNN~~QQ~~YY~-post
+layout: ~NNN~~QQ~~YY~
 section: exams
 ---
 
