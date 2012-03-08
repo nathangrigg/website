@@ -7,7 +7,9 @@ sitemap: false
 ErrorDocument 404 /grigg/404.html
 ErrorDocument 410 /grigg/410.html
 
+# File listings options
 IndexOptions +SuppressColumnSorting +SuppressDescription +IconWidth=16 +SuppressLastModified
+
 
 # Important old files which are gone or have moved
 Redirect 410 /grigg/teaching-blog
@@ -17,9 +19,6 @@ Redirect 301 /grigg/publications http://staff.washington.edu/grigg/research/publ
 Redirect 301 /grigg/current-research.html http://staff.washington.edu/grigg/research/
 Redirect 301 /grigg/cv.pdf http://staff.washington.edu/grigg/Nathan-Grigg-CV.pdf
 Redirect 301 /grigg/courses.html http://staff.washington.edu/grigg/teaching/
-
-# oops, temporary redirect
-Redirect 301 /grigg/exams/ http://staff.washington.edu/grigg/math308/wi12/exams/
 
 # Popular old files that have moved
 Redirect 301 /grigg/math324/su11.html http://staff.washington.edu/grigg/math324/su11/
@@ -47,3 +46,7 @@ RewriteRule ^math125/$ math125/su09/ [L,R=301]
 RewriteRule ^math124/$ math124/au10/ [L,R=301]
 RewriteRule ^math112/$ math112/wi09/ [L,R=301]
 RewriteRule ^math111/$ math111/au08/ [L,R=301]
+
+# Shortcuts for current course taught
+RewriteRule ^hw/?$ math308/wi12/homework/ [L,R=301]
+RewriteRule ^x/?$ math308/wi12/ [L,R=301]
