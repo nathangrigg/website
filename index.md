@@ -21,8 +21,6 @@ Seattle, WA 98195-4350<br/>
 
 <p>{% include office-hours.html %}</p>
 
-<p><a href="http://nb.nathanamy.org/latex-bbpackage/">Latex.bbpackage</a> is a collection of tools I put together to write Latex using BBEdit. I’m always looking for things to make my workflow easier, so I thought I would share.</p>
-
 </div>
 
 
