@@ -19,6 +19,12 @@
 	</script>
 	{% endif %}
 
+	{% if page.videojs %}
+	<!-- video.js -->
+	<link href="http://vjs.zencdn.net/c/video-js.css" rel="stylesheet">
+	<script src="http://vjs.zencdn.net/c/video.js"></script>
+	{% endif %}
+
     <link rel="stylesheet" href="{{ site.url }}/files/css/style.css?v=1.05" />
     <link rel="shortcut icon" href="{{ site.url }}/files/img/infinity.png" />
     <link rel="apple-touch-icon" href="{{ site.url }}/files/img/iphone-icon.png" />
