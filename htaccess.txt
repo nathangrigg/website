@@ -10,7 +10,6 @@ ErrorDocument 410 /grigg/410.html
 # File listings options
 IndexOptions +SuppressColumnSorting +SuppressDescription +IconWidth=16 +SuppressLastModified
 
-
 # Important old files which are gone or have moved
 Redirect 410 /grigg/teaching-blog
 Redirect 410 /grigg/personal-blog
@@ -40,7 +39,7 @@ RewriteBase /grigg
 RewriteRule ^math404/$ math404/sp09/ [L,R=301]
 RewriteRule ^math324/$ math324/su11/ [L,R=301]
 RewriteRule ^math308/$ math308/wi12/ [L,R=301]
-RewriteRule ^math307/$ math307/wi11/ [L,R=301]
+RewriteRule ^math307/$ math307/sp12/ [L,R=301]
 RewriteRule ^math126/$ math126/su10/ [L,R=301]
 RewriteRule ^math125/$ math125/su09/ [L,R=301]
 RewriteRule ^math124/$ math124/au10/ [L,R=301]
@@ -48,5 +47,5 @@ RewriteRule ^math112/$ math112/wi09/ [L,R=301]
 RewriteRule ^math111/$ math111/au08/ [L,R=301]
 
 # Shortcuts for current course taught
-RewriteRule ^hw/?$ math308/wi12/homework/ [L,R=301]
-RewriteRule ^x/?$ math308/wi12/ [L,R=301]
+RewriteRule ^hw/?$ math307/sp12/homework/ [L,R=301]
+RewriteRule ^x/?$ math307/sp12/ [L,R=301]

@@ -6,10 +6,11 @@ title: Nathan Grigg's Teaching
 
 # Current
 
-Teaching [Math 308][wi12] during Winter 2012.
+Teaching [Math 307][sp12] during Spring 2012.
 
 # Past
-
+- Winter 2012
+	- [Matrix Algebra][wi12] (308)
 - Summer 2011
 	- [Multivariable Calculus][su11] (324)
 - Winter 2011
@@ -35,6 +36,7 @@ Teaching [Math 308][wi12] during Winter 2012.
 - Autumn 2007
 	- [Calculus I][au07] (124)
 
+[sp12]: {{ site.url }}/math307/sp12/
 [wi12]: {{ site.url }}/math308/wi12/
 [su11]: {{ site.url }}/math324/su11/
 [wi11]: {{ site.url }}/math307/wi11/
