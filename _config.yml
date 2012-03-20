@@ -1,4 +1,6 @@
 permalink: none
 exclude: [scripts,README.md]
 url: http://staff.washington.edu/grigg
-markdown: rdiscount
+markdown: kramdown
+kramdown:
+  auto_ids: false
