@@ -31,7 +31,7 @@ Reminder: You only need to turn in the six questions inside brackets.
 
 ## Homework 2, due Friday, April 13
 
-- 2.4: 22ab, [32]
+- 2.4: 22, [32]
 - 2.5: 3, 5, [7], [20]
 - 2.7: 2abc
 
