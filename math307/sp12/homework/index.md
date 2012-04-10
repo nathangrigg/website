@@ -16,6 +16,7 @@ The other problems will not be handed in or graded.
 
 In almost every case, it is a bad idea to skip homework problems. If it helps motivate you, know that the quiz questions will be very similar to homework problems.
 
+Homework assignments are worth 15 points each, and your grades are posted in the [Catalyst grade book](https://catalyst.uw.edu/gradebook/grigg/62986).
 
 
 
