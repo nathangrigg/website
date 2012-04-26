@@ -1,33 +1,340 @@
----
-layout: nil
-base: math308/wi12
-coursetitle: Math 308
----
-
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>{{page.coursetitle}}</title>
- <link href="{{site.url}}/{{page.base}}/atom.xml" rel="self"/>
- <link href="{{site.url}}/{{page.base}}/"/>
- <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>{{site.url}}/{{page.base}}</id>
+ <title>Math 308</title>
+ <link href="http://staff.washington.edu/grigg/math308/wi12/atom.xml" rel="self"/>
+ <link href="http://staff.washington.edu/grigg/math308/wi12/"/>
+ <updated>2012-04-25T18:34:59-07:00</updated>
+ <id>http://staff.washington.edu/grigg/math308/wi12</id>
 
  <author>
    <name>Nathan Grigg</name>
    <email>grigg@uw.edu</email>
  </author>
 
- {% for post in site.categories.wi12 %}
- {% if post.categories contains "math308" %}
+ 
+ 
  <entry>
-   <title>{{ post.title }}</title>
-   <link href="{{ site.url }}{{ post.url }}"/>
-   <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>{{site.url}}/{{page.base}}{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}</content>
+   <title>Final grades</title>
+   <link href="http://staff.washington.edu/grigg/math308/wi12/final-grades.html"/>
+   <updated>2012-03-14T00:00:00-07:00</updated>
+   <id>http://staff.washington.edu/grigg/math308/wi12/math308/wi12/final-grades</id>
+   <content type="html">&lt;p&gt;Grades for your final exams will be posted to Catalyst as soon as I have them. Course grades will be posted there as well.&lt;/p&gt;
+
+&lt;p&gt;If you would like to see your graded exam, you may come to my office hours any time during Spring quarter. My office hours will be posted &lt;a href=&quot;http://staff.washington.edu/grigg&quot;&gt;here&lt;/a&gt; once Spring quarter begins.&lt;/p&gt;
+
+</content>
  </entry>
- {% endif %}
- {% endfor %}
+ 
+ 
+ 
+ <entry>
+   <title>Final exam information</title>
+   <link href="http://staff.washington.edu/grigg/math308/wi12/final-exam-info.html"/>
+   <updated>2012-03-06T11:00:00-08:00</updated>
+   <id>http://staff.washington.edu/grigg/math308/wi12/math308/wi12/final-exam-info</id>
+   <content type="html">&lt;p&gt;The final exam will be given at the university scheduled time, from 2:30 to 4:20 on March 14, 2012. The rules for the final exam are the same as for the midterms, that is, one page of notes and no calculators.&lt;/p&gt;
+
+&lt;p&gt;There will be a &lt;a href=&quot;http://depts.washington.edu/clue/index.php&quot;&gt;CLUE&lt;/a&gt; review session from 8-10 pm on Sunday, March 11 in MGH 254. You can also use the practice exams from the &lt;a href=&quot;http://staff.washington.edu/grigg/math308/wi12/exams/&quot;&gt;exams&lt;/a&gt; page to help you study for the final.&lt;/p&gt;
+
+&lt;p&gt;I will hold my normal office hours on Friday, March 9 and Tuesday, March 13. Please do not expect responses to emails sent on the day of the exam.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ 
+ 
+ <entry>
+   <title>Eigenbasis Notes</title>
+   <link href="http://staff.washington.edu/grigg/math308/wi12/eigenbasis-notes.html"/>
+   <updated>2012-03-06T10:00:00-08:00</updated>
+   <id>http://staff.washington.edu/grigg/math308/wi12/math308/wi12/eigenbasis-notes</id>
+   <content type="html">&lt;p&gt;We will finish up our study of eigenvectors by talking about eigenbases. This is closely related to diagonalization, which is discussed in section 4.7 of the textbook. You should read through the &lt;a href=&quot;http://staff.washington.edu/grigg/math308/sp10/eigenbasis.pdf&quot;&gt;eigenbasis notes&lt;/a&gt; and do the exercises.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ 
+ 
+ <entry>
+   <title>Office Hours, Week 9</title>
+   <link href="http://staff.washington.edu/grigg/math308/wi12/office-hours-week-9.html"/>
+   <updated>2012-02-27T00:00:00-08:00</updated>
+   <id>http://staff.washington.edu/grigg/math308/wi12/math308/wi12/office-hours-week-9</id>
+   <content type="html">&lt;p&gt;I will need to rearrange my office hours for this week. I am cancelling both my Tuesday and Friday office hours.&lt;/p&gt;
+
+&lt;p&gt;I will instead hold special office hours on Thursday, March 1, from 12:00 to 1:30.&lt;/p&gt;
+
+&lt;p&gt;You are welcome to ask questions by email, or set up another time (probably next week) to meet with me.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ 
+ 
+ <entry>
+   <title>Exam 2 Grades</title>
+   <link href="http://staff.washington.edu/grigg/math308/wi12/exam-2-grades.html"/>
+   <updated>2012-02-25T00:00:00-08:00</updated>
+   <id>http://staff.washington.edu/grigg/math308/wi12/math308/wi12/exam-2-grades</id>
+   <content type="html">&lt;p&gt;Grades for Exam 2 are posted &lt;a href=&quot;https://catalyst.uw.edu/gradebook/grigg/56961&quot;&gt;on Catalyst&lt;/a&gt;. If you want to see how you did in relation to the rest of the class, I have posted a &lt;a href=&quot;http://staff.washington.edu/grigg/math308/wi12/exams/hist-exam2.pdf&quot;&gt;histogram of scores&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Catalyst is also calculating a total class score for you. This percentage drops your lowest homework scores and assumes that your score on the final exam is the average of your two midterm scores. Each 2 points (out of 45) better your score is on the final than this average will add about 1.5 percentage points to your score.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ 
+ 
+ <entry>
+   <title>Exam 2 Answers</title>
+   <link href="http://staff.washington.edu/grigg/math308/wi12/exam-2-answers.html"/>
+   <updated>2012-02-24T00:00:00-08:00</updated>
+   <id>http://staff.washington.edu/grigg/math308/wi12/math308/wi12/exam-2-answers</id>
+   <content type="html">&lt;p&gt;Answers to the second exam are &lt;a href=&quot;http://staff.washington.edu/grigg/math308/wi12/exams/exam2-ans.pdf&quot;&gt;posted here&lt;/a&gt;&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ 
+ 
+ <entry>
+   <title>What will be on the exam?</title>
+   <link href="http://staff.washington.edu/grigg/math308/wi12/what-will-be-on-the-exam.html"/>
+   <updated>2012-02-21T00:00:00-08:00</updated>
+   <id>http://staff.washington.edu/grigg/math308/wi12/math308/wi12/what-will-be-on-the-exam</id>
+   <content type="html">&lt;p&gt;The exam will cover sections 3.1 thru 3.8, except for a few topics from a few sections. A good guide should be that if I assigned homework on a topic, I might ask an exam question about that topic.&lt;/p&gt;
+
+&lt;p&gt;Note that we covered slightly less material this quarter than my class did in previous quarters, so there are a couple things on the practice midterm  exams that I will not ask you to do on your midterm.&lt;/p&gt;
+
+&lt;p&gt;Specifically, I will not ask you questions about a linear transformation without giving a formula or description (Winter 2010 problem 3) or ask you to prove that a certain function is a linear transformation (Winter 2010 problem 6). I will probably ask about orthogonal bases, but definitely not about orthonormal bases (Spring 2010 problem 2b).&lt;/p&gt;
+
+&lt;p&gt;All of these are things that you could do, but that I did not assign homework problems on.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ 
+ 
+ <entry>
+   <title>Prepare for Exam 2</title>
+   <link href="http://staff.washington.edu/grigg/math308/wi12/prepare-for-exam-2.html"/>
+   <updated>2012-02-17T00:00:00-08:00</updated>
+   <id>http://staff.washington.edu/grigg/math308/wi12/math308/wi12/prepare-for-exam-2</id>
+   <content type="html">&lt;p&gt;Your second midterm exam will be given on Friday, February 24 in
+class. You may find some exams from previous quarters on the
+&lt;a href=&quot;http://staff.washington.edu/grigg/math308/wi12/exams/&quot;&gt;exams page&lt;/a&gt;.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ 
+ 
+ <entry>
+   <title>Hint on the supplemental problem</title>
+   <link href="http://staff.washington.edu/grigg/math308/wi12/hint-on-supplemental-problem.html"/>
+   <updated>2012-02-08T07:14:00-08:00</updated>
+   <id>http://staff.washington.edu/grigg/math308/wi12/math308/wi12/hint-on-supplemental-problem</id>
+   <content type="html">&lt;p&gt;If you are struggling with the supplemental problem,
+this should get you started: If you are reflecting vectors
+across a plane and you want to find the plane, you want to look
+at all the vectors that do not move. In other words, you want
+to solve the equation &lt;i&gt;A&lt;/i&gt;&lt;b&gt;x&lt;/b&gt;=&lt;b&gt;x&lt;/b&gt;.&lt;/p&gt;
+
+&lt;p&gt;You still have a little more work to do, though, because this system of
+equations has variables on both sides of the equal sign.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ 
+ 
+ <entry>
+   <title>Change to tomorrow's office hours</title>
+   <link href="http://staff.washington.edu/grigg/math308/wi12/office-hours-02-07.html"/>
+   <updated>2012-02-06T10:17:00-08:00</updated>
+   <id>http://staff.washington.edu/grigg/math308/wi12/math308/wi12/office-hours-02-07</id>
+   <content type="html">&lt;p&gt;I will hold office hours from 3:00 to 4:00 on Tuesday, February 7, instead of at the usual time.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ 
+ 
+ <entry>
+   <title>Null space, range, row space and column space</title>
+   <link href="http://staff.washington.edu/grigg/math308/wi12/null-space-range-row-space-and-column-space.html"/>
+   <updated>2012-02-03T09:00:00-08:00</updated>
+   <id>http://staff.washington.edu/grigg/math308/wi12/math308/wi12/null-space-range-row-space-and-column-space</id>
+   <content type="html">&lt;p&gt;Over the next few classes, we will be discussing some important examples of subspaces of &lt;b&gt;R&lt;/b&gt;&lt;sup&gt;n&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;To help you out, I’ve prepared some notes: &lt;a href=&quot;http://staff.washington.edu/grigg/math308/wi12/null-space-and-range.pdf&quot;&gt;Null space, range, row space, and column space&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ 
+ 
+ <entry>
+   <title>Grades from Exam 1</title>
+   <link href="http://staff.washington.edu/grigg/math308/wi12/exam-1-grades.html"/>
+   <updated>2012-02-02T12:35:00-08:00</updated>
+   <id>http://staff.washington.edu/grigg/math308/wi12/math308/wi12/exam-1-grades</id>
+   <content type="html">&lt;p&gt;Your first exam has been graded. Grades are posted on &lt;a href=&quot;https://catalyst.uw.edu/gradebook/grigg/56961&quot;&gt;Catalyst&lt;/a&gt;.
+This &lt;a href=&quot;http://staff.washington.edu/grigg/math308/wi12/exams/hist-exam1.pdf&quot;&gt;histogram&lt;/a&gt; will show you how you compare to the class.
+It is too soon to say how exam grades correspond to class grades, but
+I estimate a 28 on this exam corresponds to a 2.0.&lt;/p&gt;
+
+&lt;p&gt;Exams will be handed back on Friday. If you would like me to take a second
+look at how I graded a specific problem, please write a short explanation
+of what you think I overlooked and hand it to me with your exam.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ 
+ 
+ <entry>
+   <title>Timeline</title>
+   <link href="http://staff.washington.edu/grigg/math308/wi12/timeline.html"/>
+   <updated>2012-02-01T09:00:00-08:00</updated>
+   <id>http://staff.washington.edu/grigg/math308/wi12/math308/wi12/timeline</id>
+   <content type="html">&lt;p&gt;We will cover section 3.1 and 3.2 today, and 3.3 on Friday and Monday. We are still a little behind from the snow days, but not enough to change any homework due dates.&lt;/p&gt;
+
+&lt;p&gt;Homework 4 will be due next Wednesday as originally planned. Unless I announce otherwise, the rest of the homeworks will also be due on Wednesdays. The second exam will definitely be given on Friday, February 24, as originally planned.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ 
+ 
+ <entry>
+   <title>Exam 1 Answers</title>
+   <link href="http://staff.washington.edu/grigg/math308/wi12/exam-1-answers.html"/>
+   <updated>2012-01-30T12:00:00-08:00</updated>
+   <id>http://staff.washington.edu/grigg/math308/wi12/math308/wi12/exam-1-answers</id>
+   <content type="html">&lt;p&gt;Answers to the first exam are &lt;a href=&quot;http://staff.washington.edu/grigg/math308/wi12/exams/exam1-ans.pdf&quot;&gt;posted here&lt;/a&gt;&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ 
+ 
+ <entry>
+   <title>CLUE Review</title>
+   <link href="http://staff.washington.edu/grigg/math308/wi12/CLUE-review.html"/>
+   <updated>2012-01-23T09:30:00-08:00</updated>
+   <id>http://staff.washington.edu/grigg/math308/wi12/math308/wi12/CLUE-review</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://depts.washington.edu/clue/index.php&quot;&gt;CLUE&lt;/a&gt; will be holding a Math 308 midterm exam review on Thursday, January 26, from 8-10pm in MGH 234.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ 
+ 
+ <entry>
+   <title>New exam day</title>
+   <link href="http://staff.washington.edu/grigg/math308/wi12/new-exam-day.html"/>
+   <updated>2012-01-20T08:00:00-08:00</updated>
+   <id>http://staff.washington.edu/grigg/math308/wi12/math308/wi12/new-exam-day</id>
+   <content type="html">&lt;p&gt;The first exam will be moved to Monday, January 30. See below for some information and resources.&lt;/p&gt;
+
+&lt;p&gt;We will cover 1.7 on Monday and Wednesday and 1.9 on Wednesday and Friday. A &lt;a href=&quot;http://staff.washington.edu/grigg/math308/wi12/homework/#3&quot;&gt;revised homework 3&lt;/a&gt; will be due on Friday. The homework includes a Catalyst problem. You will not turn in homework from section 1.9, but there are some problems listed on the homework page that you should do before the exam.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ 
+ 
+ <entry>
+   <title>Exam resources</title>
+   <link href="http://staff.washington.edu/grigg/math308/wi12/exam-resources.html"/>
+   <updated>2012-01-18T20:00:00-08:00</updated>
+   <id>http://staff.washington.edu/grigg/math308/wi12/math308/wi12/exam-resources</id>
+   <content type="html">&lt;p&gt;For your first exam, you are allowed one page of notes, but no calculator. There are some exams from previous quarters posted on &lt;a href=&quot;http://staff.washington.edu/grigg/math308/wi12/exams/&quot;&gt;the exams page&lt;/a&gt;. The exam will cover all sections from Chapter 1 except for 1.4 and 1.8.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ 
+ 
+ <entry>
+   <title>Homework 2 due date</title>
+   <link href="http://staff.washington.edu/grigg/math308/wi12/homework-2-due-date.html"/>
+   <updated>2012-01-17T12:30:00-08:00</updated>
+   <id>http://staff.washington.edu/grigg/math308/wi12/math308/wi12/homework-2-due-date</id>
+   <content type="html">&lt;p&gt;The written part of Homework 2 will be due on &lt;strike&gt;Friday this week&lt;/strike&gt; Monday, January 23.&lt;/p&gt;
+
+&lt;p&gt;The Catalyst problem will be due on Wednesday as planned, even if the University of Washington cancels classes tomorrow.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ 
+ 
+ <entry>
+   <title>Catalyst problem and homework 2</title>
+   <link href="http://staff.washington.edu/grigg/math308/wi12/catalyst-problem.html"/>
+   <updated>2012-01-11T11:30:00-08:00</updated>
+   <id>http://staff.washington.edu/grigg/math308/wi12/math308/wi12/catalyst-problem</id>
+   <content type="html">&lt;p&gt;As part of &lt;a href=&quot;homework/&quot;&gt;homework 2&lt;/a&gt;, which is due next Wednesday, you will have your first Catalyst problem. To submit the problem, you must follow the link on the homework page.&lt;/p&gt;
+
+&lt;p&gt;The problem must be submitted by class on Wednesday. Type your solution in the form that is given. The form will not accept any special formatting, so do the best you can to clearly communicate your ideas. Please do not submit your solution as an image or a link.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ 
+ 
+ <entry>
+   <title>Reminder: Homework 1 due</title>
+   <link href="http://staff.washington.edu/grigg/math308/wi12/reminder-homework-1.html"/>
+   <updated>2012-01-09T09:00:00-08:00</updated>
+   <id>http://staff.washington.edu/grigg/math308/wi12/math308/wi12/reminder-homework-1</id>
+   <content type="html">&lt;p&gt;Don’t forget that the &lt;a href=&quot;homework/&quot;&gt;first homework&lt;/a&gt; is due Wednesday in class. Please write up your solutions neatly and staple your pages together.&lt;/p&gt;
+
+&lt;p&gt;If you must miss class on a day that homework is due, you can bring the assignment to my office hours on Tuesday or put it in my mailbox, which is located on the first floor of the C-wing of Padelford Hall.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ 
+ 
+ <entry>
+   <title>Row reduction calculator</title>
+   <link href="http://staff.washington.edu/grigg/math308/wi12/rref-calculator.html"/>
+   <updated>2012-01-04T13:00:00-08:00</updated>
+   <id>http://staff.washington.edu/grigg/math308/wi12/math308/wi12/rref-calculator</id>
+   <content type="html">&lt;p&gt;The page  &lt;a href=&quot;http://www.kaleidoscope.net/greg/math/rref/&quot;&gt;www.kaleidoscope.net/greg/math/rref&lt;/a&gt; has a great row reduction calculator. You might find this helpful while you are learning to row reduce.&lt;/p&gt;
+
+&lt;p&gt;On the first day of class, we covered sections 1.1 and 1.2. Read sections 1.1-1.3 before class on Friday.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ 
+ 
+ <entry>
+   <title>RSS feed</title>
+   <link href="http://staff.washington.edu/grigg/math308/wi12/rss-feed.html"/>
+   <updated>2012-01-02T00:00:00-08:00</updated>
+   <id>http://staff.washington.edu/grigg/math308/wi12/math308/wi12/rss-feed</id>
+   <content type="html">
+&lt;p&gt;&lt;a href=&quot;http://staff.washington.edu/grigg/math308/wi12/atom.xml&quot;&gt;This feed&lt;/a&gt; will contain all announcements posted to this page.&lt;/p&gt;
+
+&lt;p&gt;You can &lt;a href=&quot;http://fusion.google.com/add?source=atgs&amp;amp;feedurl=http://staff.washington.edu/grigg/math308/wi12/atom.xml&quot;&gt;subscribe to the feed&lt;/a&gt; in Google Reader, &lt;a href=&quot;http://blogtrottr.com/?subscribe=http://staff.washington.edu/grigg/math308/wi12/atom.xml&quot;&gt;receive email updates&lt;/a&gt; via blogtrottr, or use your favorite news aggregator.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ 
+ 
+ <entry>
+   <title>Welcome to the class</title>
+   <link href="http://staff.washington.edu/grigg/math308/wi12/welcome.html"/>
+   <updated>2012-01-01T00:00:00-08:00</updated>
+   <id>http://staff.washington.edu/grigg/math308/wi12/math308/wi12/welcome</id>
+   <content type="html">&lt;p&gt;Welcome to my Math 308 class. Here is the &lt;a href=&quot;syllabus.pdf&quot;&gt;syllabus&lt;/a&gt; that will be distributed the first day of class. Once you finish reading it, you could get started on the
+&lt;a href=&quot;homework/&quot;&gt;first homework assignment&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you need to contact me, now or any time this quarter, send an email to &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#103;&amp;#114;&amp;#105;&amp;#103;&amp;#103;&amp;#064;&amp;#117;&amp;#119;&amp;#046;&amp;#101;&amp;#100;&amp;#117;&quot;&gt;&amp;#103;&amp;#114;&amp;#105;&amp;#103;&amp;#103;&amp;#064;&amp;#117;&amp;#119;&amp;#046;&amp;#101;&amp;#100;&amp;#117;&lt;/a&gt;. Please include the number 308 in the subject line of the email.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ 
 
 </feed>
