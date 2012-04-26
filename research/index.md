@@ -7,7 +7,7 @@ title: Nathan Grigg's Research
 
 I am currently a graduate student at the University of Washington. My advisor is [Max Lieblich][max]. I do [algebraic geometry][ag]. I plan to graduate in 2013.
 
-[max]: http://math.washington.edu/~lieblich/
+[max]: http://www.math.washington.edu/~lieblich/
 [ag]: http://en.wikipedia.org/wiki/Algebraic_geometry
 
 # Past research

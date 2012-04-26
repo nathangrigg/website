@@ -69,6 +69,8 @@ problems.](hw35ans.html)
  ** 4.8: **[This problem](differenceeq.pdf)
 ([answers](differenceeq-ans.pdf)). [This problem is optional.]
 
+<a name="essay"></a>
+
 ### About "essay" problems
 
 Problems listed as "essay" should be turned in on a separate sheet of

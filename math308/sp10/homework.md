@@ -71,6 +71,8 @@ eigenvalues](essay-eigenvalues-2by2.pdf)<br>
 [Answers](eigenbasis-ans.pdf).<br>
  **Not collected**
 
+ <a name="essay"></a>
+
 ### About "essay" problems
 
 Problems listed as "essay" should be turned in on a separate sheet of
