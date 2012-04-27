@@ -1,3 +1,4 @@
+from __future__ import division
 import re
 import functools
 from string import Template
@@ -114,23 +115,13 @@ def svg_tick(tick):
     return '<line x1 = "%.01f" y1 = "%.01f" x2 = "%.01f" y2 = "%.01f" />' \
            % tuple(tick)
 
-def translate(stretch,shift,value,noshift=False):
-    """Performs an affine transformation, optionally skipping the translation"""
-    if noshift:
-        return stretch * value
-    else:
-        return stretch * value + shift
-
 def translation(p1,i1,p2,i2):
     """Returns the affine translation that takes p1 to i1 and p2 to i2"""
-    stretch = float(i2-i1)/(p2-p1)
+    stretch = (i2-i1)/(p2-p1)
     shift = i1 - stretch * p1
-    return functools.partial(translate,stretch,shift)
+    return stretch, shift
 
-translate_t = functools.partial(translate,1,0)
-translate_y = functools.partial(translate,1,0)
-
-def axes(canvas,title=""):
+def axes(canvas,trans,title=""):
     """Creates a box with axis labels"""
 
     # the box
@@ -147,19 +138,19 @@ def axes(canvas,title=""):
     # the axis ticks
     for t in canvas['taxis'][1:-1]:
         yield '<line x1="%s" y1="%s" x2="%s" y2="%s" />' % \
-          (translate_t(t),canvas['bottom']-2,
-           translate_t(t),canvas['bottom']+2)
+          (t*trans['tm']+trans['tb'],canvas['bottom']-2,
+           t*trans['tm']+trans['tb'],canvas['bottom']+2)
         yield '<line x1="%s" y1="%s" x2="%s" y2="%s" />' % \
-          (translate_t(t),canvas['top'],
-           translate_t(t),canvas['top']+2)
+          (t*trans['tm']+trans['tb'],canvas['top'],
+           t*trans['tm']+trans['tb'],canvas['top']+2)
 
     for y in canvas['yaxis'][1:-1]:
         yield '<line x1="%s" y1="%s" x2="%s" y2="%s" />' % \
-          (canvas['left']-2,translate_y(y),
-           canvas['left']+2,translate_y(y))
+          (canvas['left']-2,y*trans['ym']+trans['yb'],
+           canvas['left']+2,y*trans['ym']+trans['yb'])
         yield '<line x1="%s" y1="%s" x2="%s" y2="%s" />' % \
-          (canvas['right']-2,translate_y(y),
-           canvas['right'],translate_y(y))
+          (canvas['right']-2,y*trans['ym']+trans['yb'],
+           canvas['right'],y*trans['ym']+trans['yb'])
 
     yield "</g>"
 
@@ -168,11 +159,11 @@ def axes(canvas,title=""):
      'style="text-anchor: middle;">'
     for value,label in zip(canvas['taxis'],canvas['taxis_label']):
         yield '<text x="%s" y="%s">%s</text>' % \
-        (translate_t(value),canvas['h'],label)
+        (value*trans['tm']+trans['tb'],canvas['h'],label)
 
     # and the title
     yield '<text x="%s" y="%s">%s</text>' % \
-      (float(canvas['right']-canvas['top'])/2,canvas['top']-5,title)
+      ((canvas['right']-canvas['top'])/2,canvas['top']-5,title)
     yield '</g>'
 
     # the y axis labels
@@ -180,27 +171,24 @@ def axes(canvas,title=""):
      'style="text-anchor:end;">'
     for value,label in zip(canvas['yaxis'],canvas['yaxis_label']):
         yield '<text x="%d" y="%s">%s</text>' % \
-        (canvas['left']-6,translate_y(value)+4,label)
+        (canvas['left']-6,value*trans['ym']+trans['yb']+4,label)
     yield '</g>'
 
-def tick(t,y,f,length):
+def tick(t,y,f,length,trans):
     """Returns a tick centered at t,y with slope f(t,y) and given length"""
-    tt = translate_t(t)
-    yy = translate_y(y)
+    tt = t*trans['tm']+trans['tb']
+    yy = y*trans['ym']+trans['yb']
     try:
         slope = f(t,y)
-    except ZeroDivisionError:
+    except (ZeroDivisionError,OverflowError):
         # vertical tick on division by zero
-        out = [tt, yy-0.5*length,
-               tt, yy+0.5*length]
-    except OverflowError:
         out = [tt, yy-0.5*length,
                tt, yy+0.5*length]
     except:
         out = [tt,yy,tt,yy]
     else:
-        vt =  translate_t(1,noshift=True)
-        vy =  translate_y(slope,noshift=True)
+        vt =  trans['tm']
+        vy =  trans['ym'] * slope
         norm = (vt**2 + vy**2)**0.5
         vt *= 0.5 * length / norm
         vy *= 0.5 * length / norm
@@ -208,19 +196,18 @@ def tick(t,y,f,length):
 
     return out
 
-def slopefield(form):
+def slopefield(form,trans):
     """Returns a generator for a slopefield"""
-    dt = float(form['tmax']-form['tmin'])/form['tticks']
-    dy = float(form['ymax']-form['ymin'])/form['yticks']
-    ticklength = 0.6 * min(abs(translate_t(dt,noshift=True)),
-                           abs(translate_y(dy,noshift=True)))
+    dt = (form['tmax']-form['tmin'])/form['tticks']
+    dy = (form['ymax']-form['ymin'])/form['yticks']
+    ticklength = 0.6 * min(abs(dt*trans['tm']), abs(dy*trans['ym']))
 
     # loop
     t = form['tmin'] + 0.5 * dt
     while t < form['tmax']:
         y = form['ymin'] + 0.5 * dy
         while y < form['ymax']:
-            yield tick(t,y,form['fn'],ticklength)
+            yield tick(t,y,form['fn'],ticklength,trans=trans)
             y += dy
         t += dt
 
@@ -245,7 +232,7 @@ def canvas_dimensions(form,canvas_size=(750,500)):
         'w':w, 'h':h, 'taxis':taxis, 'taxis_label':taxis_label,
         'yaxis':yaxis, 'yaxis_label':yaxis_label}
 
-def svg_slopefield(canvas,slopefield_generator,title=""):
+def svg_slopefield(canvas,slopefield_generator,trans,title=""):
     """Returns an svg image for a slopefield"""
 
     # beginning of svg
@@ -254,7 +241,7 @@ width="%(w)d" height="%(h)d"
 xmlns="http://www.w3.org/2000/svg"
 xmlns:xlink="http://www.w3.org/1999/xlink">""" % canvas
 
-    for line in axes(canvas,title):
+    for line in axes(canvas,trans=trans,title=title):
         yield line
 
     # style for tick marks
@@ -295,16 +282,17 @@ def cgi_output(cgi_input,template_file,log_file=None):
     canvas = canvas_dimensions(form,canvas_size=(750,500))
 
     # calculate the translation factors based on canvas dimensions
-    global translate_t,translate_y
-    translate_t = translation(form['tmin'],canvas['left'],
+    trans = dict()
+    trans['tm'],trans['tb'] = translation(form['tmin'],canvas['left'],
                               form['tmax'],canvas['right'])
-    translate_y = translation(form['ymin'],canvas['bottom'],
+    trans['ym'],trans['yb'] = translation(form['ymin'],canvas['bottom'],
                               form['ymax'],canvas['top'])
 
     # get a generator for the slopefield
-    slopefield_generator = slopefield(form)
+    slopefield_generator = slopefield(form,trans=trans)
 
-    svg_generator = svg_slopefield(canvas,slopefield_generator,form['title'])
+    svg_generator = svg_slopefield(canvas,slopefield_generator,
+      trans=trans,title=form['title'])
 
     # print it out
 
