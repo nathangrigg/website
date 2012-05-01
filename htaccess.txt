@@ -14,6 +14,8 @@ IndexOptions +SuppressColumnSorting +SuppressDescription +IconWidth=16 +Suppress
 Redirect 410 /grigg/teaching-blog
 Redirect 410 /grigg/personal-blog
 Redirect 410 /grigg/curriculum-vitae.html
+Redirect 410 /grigg/math404/sp09/solutions
+Redirect 410 /grigg/math404/solutions 
 Redirect 301 /grigg/publications http://staff.washington.edu/grigg/research/publications
 Redirect 301 /grigg/current-research.html http://staff.washington.edu/grigg/research/
 Redirect 301 /grigg/cv.pdf http://staff.washington.edu/grigg/Nathan-Grigg-CV.pdf
@@ -21,7 +23,6 @@ Redirect 301 /grigg/courses.html http://staff.washington.edu/grigg/teaching/
 
 # Popular old files that have moved
 Redirect 301 /grigg/math324/su11.html http://staff.washington.edu/grigg/math324/su11/
-Redirect 301 /grigg/math404/solutions http://staff.washington.edu/grigg/math404/sp09/solutions
 Redirect 301 /grigg/math324/exams/su11 http://staff.washington.edu/grigg/math324/su11/exams
 Redirect 301 /grigg/math125/homework.html http://staff.washington.edu/grigg/math125/su09/homework/
 Redirect 301 /grigg/math307/textbook.html http://staff.washington.edu/grigg/math307/wi11/textbook.html
