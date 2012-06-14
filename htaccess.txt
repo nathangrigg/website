@@ -11,41 +11,37 @@ ErrorDocument 410 /grigg/410.html
 IndexOptions +SuppressColumnSorting +SuppressDescription +IconWidth=16 +SuppressLastModified
 
 # Important old files which are gone or have moved
-Redirect 410 /grigg/teaching-blog
-Redirect 410 /grigg/personal-blog
 Redirect 410 /grigg/curriculum-vitae.html
+Redirect 410 /grigg/math404/solutions
 Redirect 410 /grigg/math404/sp09/solutions
-Redirect 410 /grigg/math404/solutions 
-Redirect 301 /grigg/publications http://staff.washington.edu/grigg/research/publications
-Redirect 301 /grigg/current-research.html http://staff.washington.edu/grigg/research/
-Redirect 301 /grigg/cv.pdf http://staff.washington.edu/grigg/Nathan-Grigg-CV.pdf
-Redirect 301 /grigg/courses.html http://staff.washington.edu/grigg/teaching/
+Redirect 410 /grigg/personal-blog
+Redirect 410 /grigg/teaching-blog
 
 # Popular old files that have moved
-Redirect 301 /grigg/math324/su11.html http://staff.washington.edu/grigg/math324/su11/
-Redirect 301 /grigg/math324/exams/su11 http://staff.washington.edu/grigg/math324/su11/exams
+Redirect 301 /grigg/math111/index.php http://staff.washington.edu/grigg/math111/
+Redirect 301 /grigg/math124/index.php http://staff.washington.edu/grigg/math124/
 Redirect 301 /grigg/math125/homework.html http://staff.washington.edu/grigg/math125/su09/homework/
-Redirect 301 /grigg/math307/textbook.html http://staff.washington.edu/grigg/math307/wi11/textbook.html
-Redirect 301 /grigg/math307/homework.html http://staff.washington.edu/grigg/math307/wi11/homework/
+Redirect 301 /grigg/math126/worksheets http://staff.washington.edu/grigg/math126/su10/worksheets
 Redirect 301 /grigg/math307/exams http://staff.washington.edu/grigg/math307/wi11/exams
+Redirect 301 /grigg/math307/homework.html http://staff.washington.edu/grigg/math307/wi11/homework/
+Redirect 301 /grigg/math307/textbook.html http://staff.washington.edu/grigg/math307/wi11/textbook.html
+Redirect 301 /grigg/math324/exams/su11 http://staff.washington.edu/grigg/math324/su11/exams
 Redirect 301 /grigg/math324/homework/su11 http://staff.washington.edu/grigg/math324/su11/homework
 Redirect 301 /grigg/math324/su11-syllabus.html http://staff.washington.edu/grigg/math324/su11/syllabus/
-Redirect 301 /grigg/math124/index.php http://staff.washington.edu/grigg/math124/
-Redirect 301 /grigg/math111/index.php http://staff.washington.edu/grigg/math111/
-Redirect 301 /grigg/math126/worksheets http://staff.washington.edu/grigg/math126/su10/worksheets
+Redirect 301 /grigg/math324/su11.html http://staff.washington.edu/grigg/math324/su11/
 
 # Shortcuts for latest course taught
 RewriteEngine On
 RewriteBase /grigg
-RewriteRule ^math404/$ math404/sp09/ [L,R=301]
-RewriteRule ^math324/$ math324/su11/ [L,R=301]
-RewriteRule ^math308/$ math308/wi12/ [L,R=301]
-RewriteRule ^math307/$ math307/sp12/ [L,R=301]
-RewriteRule ^math126/$ math126/su10/ [L,R=301]
-RewriteRule ^math125/$ math125/su09/ [L,R=301]
-RewriteRule ^math124/$ math124/au10/ [L,R=301]
-RewriteRule ^math112/$ math112/wi09/ [L,R=301]
 RewriteRule ^math111/$ math111/au08/ [L,R=301]
+RewriteRule ^math112/$ math112/wi09/ [L,R=301]
+RewriteRule ^math124/$ math124/au10/ [L,R=301]
+RewriteRule ^math125/$ math125/su09/ [L,R=301]
+RewriteRule ^math126/$ math126/su10/ [L,R=301]
+RewriteRule ^math307/$ math307/sp12/ [L,R=301]
+RewriteRule ^math308/$ math308/wi12/ [L,R=301]
+RewriteRule ^math324/$ math324/su11/ [L,R=301]
+RewriteRule ^math404/$ math404/sp09/ [L,R=301]
 
 # Shortcuts for current course taught
 RewriteRule ^hw/?$ math307/sp12/homework/ [L,R=301]
