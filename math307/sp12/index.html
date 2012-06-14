@@ -7,7 +7,7 @@ feed: atom.xml
 
 <hr class="separator">
 
-{% for post in site.categories.sp12 %}
+{% for post in site.categories.sp12 reversed %}
 {% if post.categories contains "math307" %}
 	{% if post.categories contains "lessons" %}
 		{% include lesson.html %}

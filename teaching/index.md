@@ -4,11 +4,15 @@ section: teaching
 title: Nathan Grigg's Teaching
 ---
 
+<!--
 # Current
 
 Teaching [Math 307][sp12] during Spring 2012.
+-->
 
 # Past
+- Spring 2012
+    - [Differential Equations][sp12] (307)
 - Winter 2012
 	- [Matrix Algebra][wi12] (308)
 - Summer 2011
@@ -53,4 +57,8 @@ Teaching [Math 307][sp12] during Spring 2012.
 
 # Resources
 
-- [Animiations]({{ site.url }}/animations/)
+- [Animiations][1]
+- [Differential equation videos][2]
+
+[1]: {{ site.url }}/animations/
+[2]: {{ site.url }}/math307/sp12/lessons/
