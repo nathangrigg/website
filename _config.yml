@@ -1,6 +1,7 @@
 permalink: none
-exclude: [scripts,README.md]
+exclude: README.md, Rakefile
 url: http://staff.washington.edu/grigg
 markdown: kramdown
 kramdown:
   auto_ids: false
+
