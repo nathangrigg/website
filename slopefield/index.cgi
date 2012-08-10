@@ -12,8 +12,8 @@ import sys
 cgi_input = cgi.FieldStorage()
 
 # if there are no request parameters, write out static file, if possible
-if len(cgi_input.keys()) == 0 and len(sys.argv) == 1 \
-  							  or sys.argv[1] <> "--no-cache":
+if len(cgi_input.keys()) == 0 and (len(sys.argv) == 1
+                                   or sys.argv[1] <> "--no-cache"):
     try:
         f = open('landing.html','r')
     except:
@@ -32,7 +32,7 @@ import cgitb
 cgitb.enable()
 
 for line in slopefield.cgi_output(cgi_input,
-	  template_file="template.html",
-	  log_file=None):
-	print line
+      template_file="template.html",
+      log_file=None):
+    print line
 
