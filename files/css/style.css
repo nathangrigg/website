@@ -185,3 +185,15 @@ td {
 		padding-right: 1em;
 	}
 }
+
+.label {
+  font-size: 80%;
+  font-weight: bold;
+  color: #ffffff;
+  vertical-align: middle;
+  white-space: nowrap;
+  background-color: #483D8B;
+  padding: 1px 4px 0px;
+  border-radius: 3px;
+  margin-left: 3px;
+}
