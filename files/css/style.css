@@ -41,7 +41,7 @@ h2 {
 }
 
 /* HEADER AND NAV SETTINGS */
-header {
+.masthead {
 	display: block;
 	margin-bottom: 0px;
 	margin-left: -2em;
@@ -54,15 +54,15 @@ header {
     border-bottom-right-radius: 1px;
  }
 
-header a {
+.masthead a {
 	color: white;
 }
 
-header a:hover {
+.masthead a:hover {
 	color: white;
 }
 
-nav {
+.masthead nav {
 	display: block;
 	width: auto;
 	text-align: right;
@@ -71,7 +71,7 @@ nav {
 	padding: 0em;
 }
 
-nav ul {
+.masthead nav ul {
 	margin-left: 1em;
 	margin-right: 1em;
 	padding-right: 0em;
@@ -79,7 +79,7 @@ nav ul {
 	width: auto;
 }
 
-nav li {
+.masthead nav li {
 	margin-left: .2em;
 	margin-right: .2em;
 	padding: .1em .5em 0em .5em;
@@ -87,7 +87,7 @@ nav li {
 	width: auto;
 }
 
-#main-title {
+.main-title {
 	padding: 0em;
 	text-align: left;
 	font-size: 4ex;
@@ -96,13 +96,13 @@ nav li {
 	margin-left: 1em;
 }
 
-#backlink {
+.backlink {
 	font-size: 0.5em;
 	color: white;
 }
 
 /* tab effect */
-li.selected {
+.masthead li.selected {
 	border-top-right-radius: 3px 5px;
 	border-top-left-radius: 3px 5px;
 	background: white;
@@ -110,7 +110,7 @@ li.selected {
 	border-bottom: 4px solid white;
 }
 
-li.selected a {
+.masthead li.selected a {
 	color: black;
 }
 
@@ -153,14 +153,14 @@ td {
 /* PRINT */
 
 @media print {
-	header {
+	.masthead {
 		background: white;
 		border-bottom: 0px;
 		margin-bottom: 2em;
 		margin-top: 2em;
 	}
 
-	header a {
+	.masthead a {
 		color: black;
 	}
 
