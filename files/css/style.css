@@ -199,3 +199,21 @@ td {
   border-radius: 3px;
   margin-left: 3px;
 }
+
+
+body.two-col {
+    width: 850px;
+}
+
+.two-col #page {
+    width: 550px;
+    float: right;
+}
+
+.two-col #sidebar {
+    width: 200px;
+    float: left;
+    padding: 10px;
+}
+
+

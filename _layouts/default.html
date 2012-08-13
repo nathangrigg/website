@@ -42,7 +42,11 @@
 <![endif]-->
 </head>
 
+{% if page.bodyclass %}
+<body class="{{ page.bodyclass }}">
+{% else %}
 <body>
+{% endif %}
 
 	{{ content }}
 
@@ -50,5 +54,6 @@
 	{% if page.mediaelement %}
 	{% include mediaelement_options.html %}
     {% endif %}
+
 </body>
 </html>
