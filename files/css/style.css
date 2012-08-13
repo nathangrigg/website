@@ -48,8 +48,11 @@ header {
 	margin-right: -2em;
 	padding-top: 3ex;
 	background: #483D8B;
-	border-bottom: 1px solid #483D8B;
-}
+	border: 1px solid #333;
+    border-top: 0;
+    border-bottom-left-radius: 1px;
+    border-bottom-right-radius: 1px;
+ }
 
 header a {
 	color: white;
@@ -100,11 +103,10 @@ nav li {
 
 /* tab effect */
 li.selected {
-	-moz-border-radius-topright: 5px;
-	-moz-border-radius-topleft: 5px;
 	border-top-right-radius: 3px 5px;
 	border-top-left-radius: 3px 5px;
 	background: white;
+	border: 1px solid #333;
 	border-bottom: 4px solid white;
 }
 
