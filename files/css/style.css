@@ -1,6 +1,6 @@
 /* SITE WIDE BASIC SETTINGS */
 body {
-	font-family: "minion-pro", Helvetica;
+	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
 	width: 550px;
 	margin-left: auto;
 	margin-right: auto;
@@ -29,7 +29,7 @@ ul ul {
 }
 
 h1, h2, h3, h4, h5, h6, nav	{
-	font-family: "ff-dagny-web-pro", Arial, sans-serif;
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 }
 
 h1 {
