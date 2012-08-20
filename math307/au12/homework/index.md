@@ -6,4 +6,4 @@ section: homework
 
 # Homework
 
-Homework will go here
+Late homework is not accepted. For more information, see the syllabus.
