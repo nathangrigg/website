@@ -12,7 +12,10 @@ module Jekyll
 
     def render(context)
       "<video class='video-embed' src='#{@url}' #{@attrs}> </video>
-<p class='video-download'><a href='#{@url}'>Download Video</a></p>"
+<p class='video-download'>
+<a href='#{@url}'>Download Video</a> &mdash;
+<a href='https://catalyst.uw.edu/webq/survey/grigg/176158'>Problems viewing?</a>
+</p>"
     end
   end
 end
