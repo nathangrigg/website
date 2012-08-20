@@ -1,6 +1,6 @@
 /* SITE WIDE BASIC SETTINGS */
 body {
-	font-family: "minion-pro", Helvetica;
+	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
 	width: 550px;
 	margin-left: auto;
 	margin-right: auto;
@@ -29,7 +29,7 @@ ul ul {
 }
 
 h1, h2, h3, h4, h5, h6, nav	{
-	font-family: "ff-dagny-web-pro", Arial, sans-serif;
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 }
 
 h1 {
@@ -41,25 +41,28 @@ h2 {
 }
 
 /* HEADER AND NAV SETTINGS */
-header {
+.masthead {
 	display: block;
 	margin-bottom: 0px;
 	margin-left: -2em;
 	margin-right: -2em;
 	padding-top: 3ex;
 	background: #483D8B;
-	border-bottom: 1px solid #483D8B;
-}
+	border: 1px solid #333;
+    border-top: 0;
+    border-bottom-left-radius: 1px;
+    border-bottom-right-radius: 1px;
+ }
 
-header a {
+.masthead a {
 	color: white;
 }
 
-header a:hover {
+.masthead a:hover {
 	color: white;
 }
 
-nav {
+.masthead nav {
 	display: block;
 	width: auto;
 	text-align: right;
@@ -68,7 +71,7 @@ nav {
 	padding: 0em;
 }
 
-nav ul {
+.masthead nav ul {
 	margin-left: 1em;
 	margin-right: 1em;
 	padding-right: 0em;
@@ -76,7 +79,7 @@ nav ul {
 	width: auto;
 }
 
-nav li {
+.masthead nav li {
 	margin-left: .2em;
 	margin-right: .2em;
 	padding: .1em .5em 0em .5em;
@@ -84,7 +87,7 @@ nav li {
 	width: auto;
 }
 
-#main-title {
+.main-title {
 	padding: 0em;
 	text-align: left;
 	font-size: 4ex;
@@ -93,22 +96,21 @@ nav li {
 	margin-left: 1em;
 }
 
-#backlink {
+.backlink {
 	font-size: 0.5em;
 	color: white;
 }
 
 /* tab effect */
-li.selected {
-	-moz-border-radius-topright: 5px;
-	-moz-border-radius-topleft: 5px;
+.masthead li.selected {
 	border-top-right-radius: 3px 5px;
 	border-top-left-radius: 3px 5px;
 	background: white;
+	border: 1px solid #333;
 	border-bottom: 4px solid white;
 }
 
-li.selected a {
+.masthead li.selected a {
 	color: black;
 }
 
@@ -151,14 +153,14 @@ td {
 /* PRINT */
 
 @media print {
-	header {
+	.masthead {
 		background: white;
 		border-bottom: 0px;
 		margin-bottom: 2em;
 		margin-top: 2em;
 	}
 
-	header a {
+	.masthead a {
 		color: black;
 	}
 
@@ -184,4 +186,16 @@ td {
 		padding-left: 1em;
 		padding-right: 1em;
 	}
+}
+
+.label {
+  font-size: 80%;
+  font-weight: bold;
+  color: #ffffff;
+  vertical-align: middle;
+  white-space: nowrap;
+  background-color: #483D8B;
+  padding: 1px 4px 0px;
+  border-radius: 3px;
+  margin-left: 3px;
 }

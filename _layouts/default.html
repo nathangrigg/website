@@ -19,19 +19,17 @@
 	</script>
 	{% endif %}
 
-	{% if page.videojs %}
-	<!-- video.js -->
-	<link href="http://vjs.zencdn.net/c/video-js.css" rel="stylesheet">
-	<script src="http://vjs.zencdn.net/c/video.js"></script>
+    <!-- jquery -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	{% if page.mediaelement %}
+	<!-- mediaelement -->
+    <script src="/files/mediaelement/mediaelement-and-player.min.js"></script>
+    <link rel="stylesheet" href="/files/mediaelement/mediaelementplayer.min.css" />
 	{% endif %}
 
     <link rel="stylesheet" href="{{ site.url }}/files/css/style.css?v=1.05" />
     <link rel="shortcut icon" href="{{ site.url }}/files/img/infinity.png" />
     <link rel="apple-touch-icon" href="{{ site.url }}/files/img/iphone-icon.png" />
-
-    <script type="text/javascript" src="https://use.typekit.com/dus4faw.js"></script>
-	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
 
 	{% if page.htmltitle %}
 	<title>{{ page.htmltitle }}</title>
@@ -48,5 +46,9 @@
 
 	{{ content }}
 
+
+	{% if page.mediaelement %}
+	{% include mediaelement_options.html %}
+    {% endif %}
 </body>
 </html>
