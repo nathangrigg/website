@@ -4,11 +4,10 @@ section: teaching
 title: Nathan Grigg's Teaching
 ---
 
-<!--
 # Current
 
-Teaching [Math 307][sp12] during Spring 2012.
--->
+Teaching [Math 307][au12] during Autumn 2012.
+
 
 # Past
 - Spring 2012
@@ -40,6 +39,7 @@ Teaching [Math 307][sp12] during Spring 2012.
 - Autumn 2007
 	- [Calculus I][au07] (124)
 
+[au12]: {{ site.url }}/math307/au12/
 [sp12]: {{ site.url }}/math307/sp12/
 [wi12]: {{ site.url }}/math308/wi12/
 [su11]: {{ site.url }}/math324/su11/
