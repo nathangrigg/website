@@ -115,7 +115,9 @@ h2 {
 }
 
 /* Post headings */
-h1.entry {
+h1.entry,
+.sidebar h1
+ {
 	font-size: 1.1em;
 	font-weight: bold;
 }
@@ -210,10 +212,18 @@ body.two-col {
     float: right;
 }
 
-.two-col #sidebar {
+.two-col .sidebar {
     width: 200px;
     float: left;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.sidebar ul {
+	list-style-type: none;
+	padding-left: 0;
+	text-indent: -1.5em;
+	margin-left: 1.5em;
 }
 
 
