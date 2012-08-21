@@ -210,6 +210,7 @@ body.two-col {
 .two-col #page {
     width: 550px;
     float: right;
+    padding-top: 15px;
 }
 
 .two-col .sidebar {
@@ -238,3 +239,6 @@ body.two-col {
 }
 
 
+.no-bullet {
+    list-style-type: none;
+}
