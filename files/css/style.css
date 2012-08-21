@@ -122,7 +122,7 @@ h1.entry,
 	font-weight: bold;
 }
 
-span.date {
+h1 .date {
 	font-size: 0.9em;
 	font-weight: normal;
 	margin-left: 0.25em;
@@ -219,11 +219,22 @@ body.two-col {
     padding-right: 10px;
 }
 
+.sidebar {
+    font-size: 90%;
+    padding-top: 1em;
+}
+
 .sidebar ul {
 	list-style-type: none;
 	padding-left: 0;
 	text-indent: -1.5em;
 	margin-left: 1.5em;
+}
+
+/* calendar */
+.calendar .date {
+    font-weight: bold;
+    padding-right: 0.25em;
 }
 
 

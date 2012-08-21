@@ -25,9 +25,21 @@ sections: [Lessons, Homework, Quizzes, Exams]
 <li>Gradebook</li>
 </ul>
 <h1>Calendar</h1>
-<ul>
-<li>Homework 1 is due. Don't forget to staple it.</li>
-<li>Class 1M</li>
-<li>Quiz 1</li>
+<ul class="calendar" id="307-calendar">
+{% include 307au12cal.html %}
 </ul>
 </aside>
+
+<script type="text/javascript">
+$(document).ready( function() {
+    var d = new Date(2012,10,1);
+    var now = d.toISOString().substring(0,10);
+    d.setDate(d.getDate() + 8)
+    var limit = d.toISOString().substring(0,10);
+    $("#307-calendar li").each( function() {
+        if ( this.className < now || this.className >= limit ) {
+            $(this).remove();
+        }
+    })
+});
+</script>
