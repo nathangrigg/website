@@ -6,6 +6,8 @@ section: homework
 
 # Homework
 
+**This page is currently a work in progress. Things will finalize before class begins.**
+
 Late homework is not accepted. For more information, see the syllabus.
 
 Problem listed inside brackets will be handed in on the listed due date.
