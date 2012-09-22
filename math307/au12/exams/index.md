@@ -12,7 +12,7 @@ These are exams that were given during Spring quarter 2012.
 ## Midterm Exam
 
 - [Exam][1]
-- [Solutions][2]
+- Solutions will be posted by October 24.  
 
 
 ## Final Exam
