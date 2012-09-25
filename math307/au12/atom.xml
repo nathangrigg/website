@@ -18,16 +18,24 @@ coursetitle: Math 307
    <email>grigg@uw.edu</email>
  </author>
 
- {% for post in site.categories.au12 %}
- {% if post.categories contains "math307" %}
- <entry>
+{% for post in site.categories.au12 %}
+{% if post.categories contains "math307" %}
+<entry>
+{% if post.categories contains "lessons" %}
+	<title>[Lesson {{ post.lesson }}] {{ post.title }}</title>
+	<content type="html">
+		&lt;p&gt;{{post.description | xml_escape }}&lt;/p&gt;
+		&lt;p&gt;&lt;a href=&quot;{{ site.url }}{{ post.url }}&quot;&gt;View the lesson&lt;/a&gt;&lt;/p&gt;
+	</content>
+{% else %}
    <title>{{ post.title }}</title>
-   <link href="{{ site.url }}{{ post.url }}"/>
-   <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>{{site.url}}/{{page.base}}{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
- </entry>
- {% endif %}
- {% endfor %}
+{% endif %}
 
+<link href="{{ site.url }}{{ post.url }}"/>
+<updated>{{ post.date | date_to_xmlschema }}</updated>
+<id>{{site.url}}/{{page.base}}{{ post.id }}</id>
+</entry>
+{% endif %}
+{% endfor %}
 </feed>
