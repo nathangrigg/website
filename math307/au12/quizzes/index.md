@@ -9,7 +9,7 @@ section: Quizzes
 
 The quiz solutions will be posted here after class.
 
-- Quiz 1
+- [Quiz 1][1]
 - Quiz 2
 - Quiz 3
 - First makeup quiz
@@ -17,3 +17,5 @@ The quiz solutions will be posted here after class.
 - Quiz 5
 - Quiz 6
 - Second makeup quiz
+
+[1]: quiz1.pdf
