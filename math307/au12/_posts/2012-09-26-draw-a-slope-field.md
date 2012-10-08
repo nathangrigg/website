@@ -1,6 +1,6 @@
 ---
 title: Draw a slope field
-layout: 308wi12-post
+layout: 308au12-post
 date: 2012-09-27T08:00:00-0700
 ---
 
