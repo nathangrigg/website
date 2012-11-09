@@ -15,6 +15,25 @@ In almost every case, it is a bad idea to skip homework problems. If it helps mo
 
 Homework assignments are worth 15 points each, and your grades are posted in the Catalyst grade book.
 
+## Homework 5, due Wednesday, November 14
+
+- 3.5: 1, 2, 5, 7, [14], [18]
+- 3.8: 5, 7, [10], [12], [16]
+
+## Homework 6, due Wednesday, November 21
+
+- 6.1: 5
+- 6.2: 1, 2, 3, [7], [11], [23]
+
+## Homework 7, due Wednesday, December 5
+
+- 6.3: 1, 2, 7, [14], [19], [24]
+- 6.4: 1, [3], [16b]
+- 6.5: 1a
+
+## Assignments from earlier this quarter
+
+
 ## Homework 1, due Wednesday, October 3
 
 - 1.1: 3, 16, 18
@@ -42,22 +61,6 @@ Note on Problem 2.7.2: On part (b), _t_ is not equal to _h_. This means that you
 
 - 3.4: 4, 6, [18], [26]
 - 3.7: 5, 6, 8, [11], [18], [24]
-
-## Homework 5, due Wednesday, November 14
-
-- 3.5: 1, 2, 5, 7, [14], [18]
-- 3.8: 5, 7, [10], [12], [16]
-
-## Homework 6, due Wednesday, November 21
-
-- 6.1: 5
-- 6.2: 1, 2, 3, [7], [11], [23]
-
-## Homework 7, due Wednesday, December 5
-
-- 6.3: 1, 2, 7, [14], [19], [24]
-- 6.4: 1, [3], [16b]
-- 6.5: 1a
 
 
 <script type="text/javascript">
