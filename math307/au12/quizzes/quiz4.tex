@@ -1,0 +1,52 @@
+\documentclass[answers,addpoints,12pt]{exam}
+
+%math and other fonts
+\usepackage{hyperref}\urlstyle{same}
+\usepackage{amsmath}
+
+\begin{document}
+
+% Name and points box
+\noindent
+Quiz 4 \hfill Name: \hrulefill
+
+\bigskip\bigskip
+
+
+% Start of the questions
+\noindent Find the general solution to the following differential equation:
+\begin{align*}
+	y'' + 2y' + 6y &=  6t^2+4t
+\end{align*}
+
+\begin{solution}
+The general solution to the homogeneous version of the equation is
+\begin{equation*}
+	c_1 e^{-t} \cos(\sqrt 5 t) + c_2 e^{-t} \sin(\sqrt 5 t).
+\end{equation*}
+
+The particular solution will have the form
+\begin{equation*}
+	Y = At^2 + Bt + C.
+\end{equation*}
+
+After computing $Y'$ and $Y''$ and substituting into the differential equation, we get
+\begin{equation*}
+	2A + 4At + 2B + 6At^2 + 6Bt + 6C = 6t^2 + 4t.
+\end{equation*}
+
+Grouping the $t^2$, $t$, and constant terms, we get a system of three equations:
+\begin{align*}
+	6A \phantom{{}+0B+0C} &= 6 \\
+	4A + 6B \phantom{{}+0C} &= 4\\
+	2A + 2B + 6C &= 0
+\end{align*}
+
+So, $A=1$, $B=0$, and $C=-1/3$. The final general solution is
+\begin{equation*}
+	c_1 e^{-t} \cos(\sqrt 5 t) + c_2 e^{-t} \sin(\sqrt 5 t) + t^2 - 1/3.
+\end{equation*}
+\end{solution}
+
+
+\end{document}

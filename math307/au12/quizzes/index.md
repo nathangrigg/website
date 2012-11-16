@@ -13,8 +13,8 @@ The quiz solutions will be posted here after class.
 - [Quiz 2][2]
 - [Quiz 3][3]
 - [First makeup quiz][m1]
-- Quiz 4
-- Quiz 5
+- [Quiz 4][4]
+- [Quiz 5][5]
 - Quiz 6
 - Second makeup quiz
 
