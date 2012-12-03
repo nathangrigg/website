@@ -15,7 +15,7 @@ The quiz solutions will be posted here after class.
 - [First makeup quiz][m1]
 - [Quiz 4][4]
 - [Quiz 5][5]
-- Quiz 6
+- [Quiz 6][6]
 - Second makeup quiz
 
 [1]: quiz1.pdf
