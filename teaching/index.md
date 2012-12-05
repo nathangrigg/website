@@ -22,7 +22,7 @@ The videos were a big success. The students used them and appreciated them, and 
 Autumn 2012 with similar results.
 
 [1]: {{site.url}}/math307/au12/lessons/4M.html
-[2]: {{site.url}}math307/au12/lessons/
+[2]: {{site.url}}/math307/au12/lessons/
 
 ## Teaching aids
 

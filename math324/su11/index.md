@@ -36,7 +36,7 @@ Please check back often to keep up to date on class announcements or subscribe t
 
 [syl]: syllabus/
 [MIT1]: http://ocw.mit.edu/courses/mathematics/18-02-multivariable-calculus-fall-2007/
-[MIT2]: http://itunes.apple.com/itunes-u/multivariable-calculus-spring/id354869122
+[MIT2]: https://itunes.apple.com/itunes-u/multivariable-calculus-spring/id354869122
 [catalyst]: https://catalyst.uw.edu/gradebook/grigg/46855
 
 
