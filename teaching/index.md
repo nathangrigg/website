@@ -86,11 +86,13 @@ and [damping][7].
 
 # Currently Teaching
 
-Teaching [Math 307][au12] during Autumn 2012.
+I'm a [Math 124][wi13] teaching assistant during Winter 2013.
 
 
 # Past Courses
 
+- Autumn 2012
+    - [Differential Equations][au12] Instructor (307)
 - Spring 2012
     - [Differential Equations][sp12] Instructor (307)
 - Winter 2012
@@ -120,6 +122,7 @@ Teaching [Math 307][au12] during Autumn 2012.
 - Autumn 2007
 	- [Calculus I][au07] Teaching Assistant (124)
 
+[wi13]: {{ site.url }}/math124/wi13/
 [au12]: {{ site.url }}/math307/au12/
 [sp12]: {{ site.url }}/math307/sp12/
 [wi12]: {{ site.url }}/math308/wi12/
