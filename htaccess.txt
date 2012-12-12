@@ -35,7 +35,7 @@ RewriteEngine On
 RewriteBase /grigg
 RewriteRule ^math111/$ math111/au08/ [L,R=301]
 RewriteRule ^math112/$ math112/wi09/ [L,R=301]
-RewriteRule ^math124/$ math124/au10/ [L,R=301]
+RewriteRule ^math124/$ math124/wi13/ [L,R=301]
 RewriteRule ^math125/$ math125/su09/ [L,R=301]
 RewriteRule ^math126/$ math126/su10/ [L,R=301]
 RewriteRule ^math307/$ math307/au12/ [L,R=301]
@@ -44,5 +44,5 @@ RewriteRule ^math324/$ math324/su11/ [L,R=301]
 RewriteRule ^math404/$ math404/sp09/ [L,R=301]
 
 # Shortcuts for current course taught
-RewriteRule ^hw/?$ math307/au12/homework/ [L,R=301]
-RewriteRule ^x/?$ math307/au12/ [L,R=301]
+# RewriteRule ^hw/?$ math307/au12/homework/ [L,R=301]
+RewriteRule ^x/?$ math124/wi13/ [L,R=301]
