@@ -19,7 +19,7 @@ Look at my<br />
 <a href="research">Research</a>, or
 <a href="teaching">Teaching</a>.</p>
 
-<p><strong>Are you one of my students?</strong><br /> I’m currently a <a href="math307/au12/">Math 124</a> teaching assistant.</p>
+<p><strong>Are you one of my students?</strong><br /> I’m currently a <a href="math124/wi13/">Math 124</a> teaching assistant.</p>
 
 
 <p><strong>Contact Information</strong><br/>
