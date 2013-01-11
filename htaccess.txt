@@ -43,6 +43,9 @@ RewriteRule ^math308/$ math308/wi12/ [L,R=302]
 RewriteRule ^math324/$ math324/su11/ [L,R=302]
 RewriteRule ^math404/$ math404/sp09/ [L,R=302]
 
+# slopefield
+RewriteRule ^slopefield/?$ http://slopefield.herokuapp.com [L,R=301]
+
 # Shortcuts for current course taught
 # RewriteRule ^hw/?$ math307/au12/homework/ [L,R=302]
 RewriteRule ^x/?$ math124/wi13/ [L,R=302]
