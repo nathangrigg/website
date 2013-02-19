@@ -7,8 +7,6 @@ section: Quizzes
 
 # Quizzes
 
-The quiz solutions will be posted here after class.
-
 - [Quiz 1][1]
 - [Quiz 2][2]
 - [Quiz 3][3]

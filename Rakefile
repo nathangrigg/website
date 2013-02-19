@@ -27,13 +27,3 @@ desc "Build pre-jekyll tasks"
 task :build do
     # nothing to do
 end
-
-desc "Compile calendar"
-task :cal do
-    dir = "/Users/grigg/Dropbox/Math/teaching/307/calendar"
-    cal = "#{dir}/307"
-    py = "#{dir}/cal.py"
-    now = "2012 10 26"
-    output = "_includes/307au12cal.html"
-    system("when --calendar='#{cal}' --now='#{now}' --future=200 | '#{py}' > '#{output}'")
-end

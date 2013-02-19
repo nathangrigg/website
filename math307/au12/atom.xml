@@ -1,41 +1,571 @@
----
-layout: nil
-base: math307/au12/
-coursetitle: Math 307
----
-
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>{{page.coursetitle}}</title>
- <link href="{{site.url}}/{{page.base}}/atom.xml" rel="self"/>
- <link href="{{site.url}}/{{page.base}}/"/>
- <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>{{site.url}}/{{page.base}}</id>
+ <title>Math 307</title>
+ <link href="http://staff.washington.edu/grigg/math307/au12//atom.xml" rel="self"/>
+ <link href="http://staff.washington.edu/grigg/math307/au12//"/>
+ <updated>2013-01-11T09:39:00-08:00</updated>
+ <id>http://staff.washington.edu/grigg/math307/au12/</id>
 
  <author>
    <name>Nathan Grigg</name>
    <email>grigg@uw.edu</email>
  </author>
 
-{% for post in site.categories.au12 %}
-{% if post.categories contains "math307" %}
-<entry>
-{% if post.categories contains "lessons" %}
-	<title>[Lesson {{ post.lesson }}] {{ post.title }}</title>
-	<content type="html">
-		&lt;p&gt;{{post.description | xml_escape }}&lt;/p&gt;
-		&lt;p&gt;&lt;a href=&quot;{{ site.url }}{{ post.url }}&quot;&gt;View the lesson&lt;/a&gt;&lt;/p&gt;
-	</content>
-{% else %}
-   <title>{{ post.title }}</title>
-   <content type="html">{{ post.content | xml_escape }}</content>
-{% endif %}
 
-<link href="{{ site.url }}{{ post.url }}"/>
-<updated>{{ post.date | date_to_xmlschema }}</updated>
-<id>{{site.url}}/{{page.base}}{{ post.id }}</id>
+
+<entry>
+
+   <title>Final Exam Pickup</title>
+   <content type="html">&lt;p&gt;Final exam grades will be posted as soon as I finish grading them.&lt;/p&gt;
+
+&lt;p&gt;I will be in my office on Friday from 1:00 to 2:00 if you would like to pick up your final exam. Or, you may send me an email any time during winter quarter to arrange a time to pick up your final exam. At the end of winter quarter, all remaining exams will be discarded.&lt;/p&gt;
+</content>
+
+
+<link href="http://staff.washington.edu/grigg/math307/au12/final-exam-pickup.html"/>
+<updated>2012-12-12T00:00:00-08:00</updated>
+<id>http://staff.washington.edu/grigg/math307/au12//math307/au12/final-exam-pickup</id>
 </entry>
-{% endif %}
-{% endfor %}
+
+
+
+<entry>
+
+   <title>Final Exam Information</title>
+   <content type="html">&lt;p&gt;The final exam will be held on Wednesday, December 12, in our usual classroom but at the unusual time of 8:30 am. The final exam may test anything we have discussed in class, the lessons, or the homework this quarter.&lt;/p&gt;
+
+&lt;p&gt;You may use a non-graphing calculator and two pages of notes. Each page of notes can be front and back of a standard-sized sheet of paper; hand-written, photocopied, or typed.&lt;/p&gt;
+
+&lt;p&gt;I will not provide Laplace transform formulas, so you will probably want to include these in your notes. If you want, you can just use a &lt;a href=&quot;http://staff.washington.edu/grigg/login/laplace-table.pdf&quot;&gt;copy of the Laplace Table&lt;/a&gt; from the book.&lt;/p&gt;
+
+</content>
+
+
+<link href="http://staff.washington.edu/grigg/math307/au12/final-exam-information.html"/>
+<updated>2012-12-06T10:52:06-08:00</updated>
+<id>http://staff.washington.edu/grigg/math307/au12//math307/au12/final-exam-information</id>
+</entry>
+
+
+
+<entry>
+
+   <title>Worksheet answers</title>
+   <content type="html">&lt;p&gt;Here are the &lt;a href=&quot;worksheet-laplace.pdf&quot;&gt;answers to the Laplace worksheet&lt;/a&gt; that we did in class on Wednesday.&lt;/p&gt;
+
+</content>
+
+
+<link href="http://staff.washington.edu/grigg/math307/au12/worksheet-answers.html"/>
+<updated>2012-12-06T00:00:00-08:00</updated>
+<id>http://staff.washington.edu/grigg/math307/au12//math307/au12/worksheet-answers</id>
+</entry>
+
+
+
+<entry>
+
+   <title>CLUE review session</title>
+   <content type="html">&lt;p&gt;The Center for Learning and Undergraduate Enrichment is having a review session for the Math 307 final on Sunday, December 9. This review will take place in room 288 of Mary Gates Hall from 8:00-10:00 pm. The review will be held by Kyle Nyvall, one of the CLUE math tutors.&lt;/p&gt;
+
+</content>
+
+
+<link href="http://staff.washington.edu/grigg/math307/au12/clue-review-session.html"/>
+<updated>2012-12-05T00:00:00-08:00</updated>
+<id>http://staff.washington.edu/grigg/math307/au12//math307/au12/clue-review-session</id>
+</entry>
+
+
+
+<entry>
+
+	<title>[Lesson 10F] Laplace transforms of discontinuous functions</title>
+	<content type="html">
+		&lt;p&gt;A start-to-finish example of a differential equation with a discontinuous function. Section 6.4.&lt;/p&gt;
+		&lt;p&gt;&lt;a href=&quot;http://staff.washington.edu/grigg/math307/au12/lessons/10F.html&quot;&gt;View the lesson&lt;/a&gt;&lt;/p&gt;
+	</content>
+
+
+<link href="http://staff.washington.edu/grigg/math307/au12/lessons/10F.html"/>
+<updated>2012-11-28T07:46:00-08:00</updated>
+<id>http://staff.washington.edu/grigg/math307/au12//math307/au12/lessons/10F</id>
+</entry>
+
+
+
+<entry>
+
+   <title>Notes on Laplace Transforms of Step Functions</title>
+   <content type="html">&lt;p&gt;Here are &lt;a href=&quot;http://staff.washington.edu/grigg/math307/sp12/laplace-with-heaviside.pdf&quot;&gt;some notes&lt;/a&gt; on Laplace Transforms of Step Functions
+that we discussed in class today.&lt;/p&gt;
+
+</content>
+
+
+<link href="http://staff.washington.edu/grigg/math307/au12/laplace-heaviside.html"/>
+<updated>2012-11-28T00:00:00-08:00</updated>
+<id>http://staff.washington.edu/grigg/math307/au12//math307/au12/laplace-heaviside</id>
+</entry>
+
+
+
+<entry>
+
+   <title>Homework 6 and November 21.</title>
+   <content type="html">&lt;p&gt;There will be no class on Wednesday, November 21, but Homework 6 will be due that day. I will be in class at 9:30 as usual to collect homework. If you want to turn your homework in early, you can bring it to my office (Art 336) any time before then.&lt;/p&gt;
+</content>
+
+
+<link href="http://staff.washington.edu/grigg/math307/au12/homework-6.html"/>
+<updated>2012-11-19T00:00:00-08:00</updated>
+<id>http://staff.washington.edu/grigg/math307/au12//math307/au12/homework-6</id>
+</entry>
+
+
+
+<entry>
+
+	<title>[Lesson 8F] Using Laplace Transforms</title>
+	<content type="html">
+		&lt;p&gt;Using Laplace transforms to solve initial value problems. Section 6.2.&lt;/p&gt;
+		&lt;p&gt;&lt;a href=&quot;http://staff.washington.edu/grigg/math307/au12/lessons/8F.html&quot;&gt;View the lesson&lt;/a&gt;&lt;/p&gt;
+	</content>
+
+
+<link href="http://staff.washington.edu/grigg/math307/au12/lessons/8F.html"/>
+<updated>2012-11-14T00:00:00-08:00</updated>
+<id>http://staff.washington.edu/grigg/math307/au12//math307/au12/lessons/8F</id>
+</entry>
+
+
+
+<entry>
+
+   <title>Answers to resonance worksheet</title>
+   <content type="html">&lt;p&gt;Here are the &lt;a href=&quot;worksheet-resonance.pdf&quot;&gt;answers to the resonance worksheet&lt;/a&gt; that we did in class today.&lt;/p&gt;
+
+</content>
+
+
+<link href="http://staff.washington.edu/grigg/math307/au12/answers-resonance-worksheet.html"/>
+<updated>2012-11-09T00:00:00-08:00</updated>
+<id>http://staff.washington.edu/grigg/math307/au12//math307/au12/answers-resonance-worksheet</id>
+</entry>
+
+
+
+<entry>
+
+   <title>Quiz 4</title>
+   <content type="html">&lt;p&gt;The fourth quiz of the quarter will be given on Friday, November 9. It will cover sections 3.5 and 3.8.&lt;/p&gt;
+</content>
+
+
+<link href="http://staff.washington.edu/grigg/math307/au12/quiz-4.html"/>
+<updated>2012-11-07T00:00:00-08:00</updated>
+<id>http://staff.washington.edu/grigg/math307/au12//math307/au12/quiz-4</id>
+</entry>
+
+
+
+<entry>
+
+	<title>[Lesson 7W] Forced oscillation and resonance</title>
+	<content type="html">
+		&lt;p&gt;An introduction to resonance and forced oscillation. Section 3.8.&lt;/p&gt;
+		&lt;p&gt;&lt;a href=&quot;http://staff.washington.edu/grigg/math307/au12/lessons/7W.html&quot;&gt;View the lesson&lt;/a&gt;&lt;/p&gt;
+	</content>
+
+
+<link href="http://staff.washington.edu/grigg/math307/au12/lessons/7W.html"/>
+<updated>2012-11-06T00:00:00-08:00</updated>
+<id>http://staff.washington.edu/grigg/math307/au12//math307/au12/lessons/7W</id>
+</entry>
+
+
+
+<entry>
+
+   <title>Midterm grades</title>
+   <content type="html">&lt;p&gt;The median score on the midterm was 16. Here is &lt;a href=&quot;midterm.pdf&quot;&gt;a histogram&lt;/a&gt; of the scores.&lt;/p&gt;
+
+</content>
+
+
+<link href="http://staff.washington.edu/grigg/math307/au12/midterm-grades.html"/>
+<updated>2012-11-05T00:00:00-08:00</updated>
+<id>http://staff.washington.edu/grigg/math307/au12//math307/au12/midterm-grades</id>
+</entry>
+
+
+
+<entry>
+
+	<title>[Lesson 7M] Undetermined coefficients, part 2</title>
+	<content type="html">
+		&lt;p&gt;How to find the format for the particular solution, and when and how to “bump up” the particular solution. Section 3.5.&lt;/p&gt;
+		&lt;p&gt;&lt;a href=&quot;http://staff.washington.edu/grigg/math307/au12/lessons/7M.html&quot;&gt;View the lesson&lt;/a&gt;&lt;/p&gt;
+	</content>
+
+
+<link href="http://staff.washington.edu/grigg/math307/au12/lessons/7M.html"/>
+<updated>2012-11-05T00:00:00-08:00</updated>
+<id>http://staff.washington.edu/grigg/math307/au12//math307/au12/lessons/7M</id>
+</entry>
+
+
+
+<entry>
+
+	<title>[Lesson 6F] Method of Undetermined Coefficients</title>
+	<content type="html">
+		&lt;p&gt;The method of undetermined coefficients lets you solve non-homogeneous linear differential equations. Section 3.5.&lt;/p&gt;
+		&lt;p&gt;&lt;a href=&quot;http://staff.washington.edu/grigg/math307/au12/lessons/6F.html&quot;&gt;View the lesson&lt;/a&gt;&lt;/p&gt;
+	</content>
+
+
+<link href="http://staff.washington.edu/grigg/math307/au12/lessons/6F.html"/>
+<updated>2012-10-31T00:00:00-07:00</updated>
+<id>http://staff.washington.edu/grigg/math307/au12//math307/au12/lessons/6F</id>
+</entry>
+
+
+
+<entry>
+
+   <title>Answers to the springs and circuits worksheet</title>
+   <content type="html">&lt;p&gt;Here are the &lt;a href=&quot;worksheet-3-7-answers.pdf&quot;&gt;answers&lt;/a&gt; to the worksheet
+we did in class today.&lt;/p&gt;
+</content>
+
+
+<link href="http://staff.washington.edu/grigg/math307/au12/worksheet-springs-circuits-answers.html"/>
+<updated>2012-10-26T00:00:00-07:00</updated>
+<id>http://staff.washington.edu/grigg/math307/au12//math307/au12/worksheet-springs-circuits-answers</id>
+</entry>
+
+
+
+<entry>
+
+   <title>Instructions for the make up quiz</title>
+   <content type="html">&lt;p&gt;The makeup quiz will be given on Monday. There will be a single quiz with three
+problems. You must choose one problem to do.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The first problem will be from section 2.1 or 2.2. If you do this problem,
+your score will replace the score you got on Quiz 1.&lt;/li&gt;
+  &lt;li&gt;The second problem will be from section 2.4 or 2.5. If you do this problem,
+your score will replace the score you got on Quiz 2.&lt;/li&gt;
+  &lt;li&gt;The third problem will be from section 3.1 or 3.3. If you do this problem,
+your score will replace the score you got on Quiz 3.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you do worse on the make up quiz than you did on the original quiz, I will
+not change your score.&lt;/p&gt;
+
+&lt;p&gt;The quiz will be given at the beginning of class.&lt;/p&gt;
+</content>
+
+
+<link href="http://staff.washington.edu/grigg/math307/au12/instructions-for-the-make-up-quiz.html"/>
+<updated>2012-10-24T00:00:00-07:00</updated>
+<id>http://staff.washington.edu/grigg/math307/au12//math307/au12/instructions-for-the-make-up-quiz</id>
+</entry>
+
+
+
+<entry>
+
+   <title>Midterm exam details</title>
+   <content type="html">&lt;p&gt;You may use a single page of notes (printed or written on both sides)
+on the exam. You may use a non-graphing calculator.&lt;/p&gt;
+
+&lt;p&gt;The problems on the exams will be more difficult than the quiz questions,
+in the same way that the homework problems from the end of the sections are
+more difficult than the homework problems from the beginning of the sections.
+Some exams from a previous quarter are on the &lt;a href=&quot;exams/&quot;&gt;exams page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The midterm exam will be in class on Wednesday, October 31.&lt;/p&gt;
+
+</content>
+
+
+<link href="http://staff.washington.edu/grigg/math307/au12/exam-details.html"/>
+<updated>2012-10-24T00:00:00-07:00</updated>
+<id>http://staff.washington.edu/grigg/math307/au12//math307/au12/exam-details</id>
+</entry>
+
+
+
+<entry>
+
+	<title>[Lesson 5W] Trigonometry review</title>
+	<content type="html">
+		&lt;p&gt;Use trigonometry identities to combine sine and cosines into a single term. Some terminology: frequency, amplitude, quasi frequency, etc. Section 3.7.&lt;/p&gt;
+		&lt;p&gt;&lt;a href=&quot;http://staff.washington.edu/grigg/math307/au12/lessons/5W.html&quot;&gt;View the lesson&lt;/a&gt;&lt;/p&gt;
+	</content>
+
+
+<link href="http://staff.washington.edu/grigg/math307/au12/lessons/5W.html"/>
+<updated>2012-10-23T07:00:00-07:00</updated>
+<id>http://staff.washington.edu/grigg/math307/au12//math307/au12/lessons/5W</id>
+</entry>
+
+
+
+<entry>
+
+   <title>Office hours a little later</title>
+   <content type="html">&lt;p&gt;Office hours for Tuesday, October 23 will be from 3:30 to 4:30, one
+half hour later than usual.&lt;/p&gt;
+</content>
+
+
+<link href="http://staff.washington.edu/grigg/math307/au12/office-hours-23.html"/>
+<updated>2012-10-23T00:00:00-07:00</updated>
+<id>http://staff.washington.edu/grigg/math307/au12//math307/au12/office-hours-23</id>
+</entry>
+
+
+
+<entry>
+
+   <title>Quiz 3</title>
+   <content type="html">&lt;p&gt;Solutions to the third quiz are posted on the &lt;a href=&quot;http://staff.washington.edu/grigg/math307/au12/quizzes/&quot;&gt;quiz page&lt;/a&gt;.&lt;/p&gt;
+
+</content>
+
+
+<link href="http://staff.washington.edu/grigg/math307/au12/quiz3.html"/>
+<updated>2012-10-19T00:00:00-07:00</updated>
+<id>http://staff.washington.edu/grigg/math307/au12//math307/au12/quiz3</id>
+</entry>
+
+
+
+<entry>
+
+	<title>[Lesson 4W] Complex Roots to the Characteristic Equation</title>
+	<content type="html">
+		&lt;p&gt;Although the method from Monday technically works even if the roots to the characteristic equation are not real, there is a way to eliminate the imaginary numbers by using sines and cosines. Section 3.3.&lt;/p&gt;
+		&lt;p&gt;&lt;a href=&quot;http://staff.washington.edu/grigg/math307/au12/lessons/4W.html&quot;&gt;View the lesson&lt;/a&gt;&lt;/p&gt;
+	</content>
+
+
+<link href="http://staff.washington.edu/grigg/math307/au12/lessons/4W.html"/>
+<updated>2012-10-16T00:00:00-07:00</updated>
+<id>http://staff.washington.edu/grigg/math307/au12//math307/au12/lessons/4W</id>
+</entry>
+
+
+
+<entry>
+
+	<title>[Lesson 4M] Linear Homogeneous equations with constant coefficients</title>
+	<content type="html">
+		&lt;p&gt;Second order linear homogeneous differential equations, with constant coefficients. They are pretty easy to solve, and you don't have to do any integration. Section 3.1.&lt;/p&gt;
+		&lt;p&gt;&lt;a href=&quot;http://staff.washington.edu/grigg/math307/au12/lessons/4M.html&quot;&gt;View the lesson&lt;/a&gt;&lt;/p&gt;
+	</content>
+
+
+<link href="http://staff.washington.edu/grigg/math307/au12/lessons/4M.html"/>
+<updated>2012-10-12T07:16:32-07:00</updated>
+<id>http://staff.washington.edu/grigg/math307/au12//math307/au12/lessons/4M</id>
+</entry>
+
+
+
+<entry>
+
+   <title>Quiz 2</title>
+   <content type="html">&lt;p&gt;Solutions to the second quiz are posted on the &lt;a href=&quot;http://staff.washington.edu/grigg/math307/au12/quizzes/&quot;&gt;quiz page&lt;/a&gt;.&lt;/p&gt;
+
+</content>
+
+
+<link href="http://staff.washington.edu/grigg/math307/au12/quiz2.html"/>
+<updated>2012-10-12T07:14:59-07:00</updated>
+<id>http://staff.washington.edu/grigg/math307/au12//math307/au12/quiz2</id>
+</entry>
+
+
+
+<entry>
+
+	<title>[Lesson 3F] Euler's Method</title>
+	<content type="html">
+		&lt;p&gt;Euler's method uses the tangent line approximation to find an approximate solution for first order differential equations that you cannot solve in other ways. Section 2.7.&lt;/p&gt;
+		&lt;p&gt;&lt;a href=&quot;http://staff.washington.edu/grigg/math307/au12/lessons/3F.html&quot;&gt;View the lesson&lt;/a&gt;&lt;/p&gt;
+	</content>
+
+
+<link href="http://staff.washington.edu/grigg/math307/au12/lessons/3F.html"/>
+<updated>2012-10-10T00:00:00-07:00</updated>
+<id>http://staff.washington.edu/grigg/math307/au12//math307/au12/lessons/3F</id>
+</entry>
+
+
+
+<entry>
+
+	<title>[Lesson 3W] Autonomous equations</title>
+	<content type="html">
+		&lt;p&gt;An autonomous equation is a differential equation that depends only on y and y', and not on t. You can understand these without solving the differential equation by finding the equilibrium solutions. Section 2.5.&lt;/p&gt;
+		&lt;p&gt;&lt;a href=&quot;http://staff.washington.edu/grigg/math307/au12/lessons/3W.html&quot;&gt;View the lesson&lt;/a&gt;&lt;/p&gt;
+	</content>
+
+
+<link href="http://staff.washington.edu/grigg/math307/au12/lessons/3W.html"/>
+<updated>2012-10-08T07:35:55-07:00</updated>
+<id>http://staff.washington.edu/grigg/math307/au12//math307/au12/lessons/3W</id>
+</entry>
+
+
+
+<entry>
+
+   <title>Grade book</title>
+   <content type="html">&lt;p&gt;You can check your quiz and homework grades in the &lt;a href=&quot;https://catalyst.uw.edu/gradebook/grigg/68771&quot;&gt;Catalyst gradebook&lt;/a&gt;.
+Please make sure that everything gets entered correctly.&lt;/p&gt;
+
+</content>
+
+
+<link href="http://staff.washington.edu/grigg/math307/au12/gradebook.html"/>
+<updated>2012-10-08T07:35:35-07:00</updated>
+<id>http://staff.washington.edu/grigg/math307/au12//math307/au12/gradebook</id>
+</entry>
+
+
+
+<entry>
+
+	<title>[Lesson 2F] Modeling credit card interest</title>
+	<content type="html">
+		&lt;p&gt;More modeling problems. This lesson is a discussion of the credit card interest problem that we did in class. Section 2.3.&lt;/p&gt;
+		&lt;p&gt;&lt;a href=&quot;http://staff.washington.edu/grigg/math307/au12/lessons/2F.html&quot;&gt;View the lesson&lt;/a&gt;&lt;/p&gt;
+	</content>
+
+
+<link href="http://staff.washington.edu/grigg/math307/au12/lessons/2F.html"/>
+<updated>2012-10-03T00:00:00-07:00</updated>
+<id>http://staff.washington.edu/grigg/math307/au12//math307/au12/lessons/2F</id>
+</entry>
+
+
+
+<entry>
+
+	<title>[Lesson 2M] Modeling a tank with dyed water</title>
+	<content type="html">
+		&lt;p&gt;A first example of modeling with differential equations. Many problems are similar to the tank problem, where you have to account for how much of something is flowing in and how much is flowing out. Section 2.3.&lt;/p&gt;
+		&lt;p&gt;&lt;a href=&quot;http://staff.washington.edu/grigg/math307/au12/lessons/2M.html&quot;&gt;View the lesson&lt;/a&gt;&lt;/p&gt;
+	</content>
+
+
+<link href="http://staff.washington.edu/grigg/math307/au12/lessons/2M.html"/>
+<updated>2012-09-28T00:00:00-07:00</updated>
+<id>http://staff.washington.edu/grigg/math307/au12//math307/au12/lessons/2M</id>
+</entry>
+
+
+
+<entry>
+
+	<title>[Lesson 1F] Separable differential equations</title>
+	<content type="html">
+		&lt;p&gt;Solve separable first-order differential equations by separating the variables and integrating both sides of the equation. Section 2.2 from the book.&lt;/p&gt;
+		&lt;p&gt;&lt;a href=&quot;http://staff.washington.edu/grigg/math307/au12/lessons/1F.html&quot;&gt;View the lesson&lt;/a&gt;&lt;/p&gt;
+	</content>
+
+
+<link href="http://staff.washington.edu/grigg/math307/au12/lessons/1F.html"/>
+<updated>2012-09-27T08:30:00-07:00</updated>
+<id>http://staff.washington.edu/grigg/math307/au12//math307/au12/lessons/1F</id>
+</entry>
+
+
+
+<entry>
+
+   <title>Draw a slope field</title>
+   <content type="html">&lt;p&gt;Here is the &lt;a href=&quot;http://staff.washington.edu/grigg/slopefield/&quot;&gt;slope field generator&lt;/a&gt; I mentioned in class yesterday. It may help you as you do your homework. Slope fields are a great way to visual first order differential equations.
+I wrote the program recently, so if you run into a bug, send me an email.&lt;/p&gt;
+</content>
+
+
+<link href="http://staff.washington.edu/grigg/math307/au12/draw-a-slope-field.html"/>
+<updated>2012-09-27T08:00:00-07:00</updated>
+<id>http://staff.washington.edu/grigg/math307/au12//math307/au12/draw-a-slope-field</id>
+</entry>
+
+
+
+<entry>
+
+	<title>[Lesson 1W] Integrating Factors</title>
+	<content type="html">
+		&lt;p&gt;The method of integrating factors helps you solve first order linear differential equations. You have to integrate with respect to t two times in order to solve each problem. Section 2.1.&lt;/p&gt;
+		&lt;p&gt;&lt;a href=&quot;http://staff.washington.edu/grigg/math307/au12/lessons/1W.html&quot;&gt;View the lesson&lt;/a&gt;&lt;/p&gt;
+	</content>
+
+
+<link href="http://staff.washington.edu/grigg/math307/au12/lessons/1W.html"/>
+<updated>2012-09-24T00:00:00-07:00</updated>
+<id>http://staff.washington.edu/grigg/math307/au12//math307/au12/lessons/1W</id>
+</entry>
+
+
+
+<entry>
+
+	<title>[Lesson 1M] First day of class</title>
+	<content type="html">
+		&lt;p&gt;Classifying differential equations (linear, homogeneous, etc.) and mathematical modeling. This is material we covered the first day of class, and is found in Chapter 1 of the textbook.&lt;/p&gt;
+		&lt;p&gt;&lt;a href=&quot;http://staff.washington.edu/grigg/math307/au12/lessons/1M.html&quot;&gt;View the lesson&lt;/a&gt;&lt;/p&gt;
+	</content>
+
+
+<link href="http://staff.washington.edu/grigg/math307/au12/lessons/1M.html"/>
+<updated>2012-09-24T00:00:00-07:00</updated>
+<id>http://staff.washington.edu/grigg/math307/au12//math307/au12/lessons/1M</id>
+</entry>
+
+
+
+<entry>
+
+   <title>Atom feed</title>
+   <content type="html">
+&lt;p&gt;&lt;a href=&quot;http://staff.washington.edu/grigg/math307/au12/atom.xml&quot;&gt;This feed&lt;/a&gt; will contain all announcements posted to this page.&lt;/p&gt;
+
+&lt;p&gt;You can sign up to  &lt;a href=&quot;http://eepurl.com/oDtKD&quot;&gt;receive announcements by email&lt;/a&gt; or &lt;a href=&quot;http://fusion.google.com/add?source=atgs&amp;amp;feedurl=http%3A%2F%2Fstaff.washington.edu%2Fgrigg%2Fmath307%2Fau12%2Fatom.xml&quot;&gt;subscribe to the feed&lt;/a&gt; in Google Reader.&lt;/p&gt;
+
+</content>
+
+
+<link href="http://staff.washington.edu/grigg/math307/au12/atom-feed.html"/>
+<updated>2012-09-21T00:00:00-07:00</updated>
+<id>http://staff.washington.edu/grigg/math307/au12//math307/au12/atom-feed</id>
+</entry>
+
+
+
+<entry>
+
+   <title>Welcome to the class</title>
+   <content type="html">&lt;p&gt;Welcome to Math 307 section K. Here is the &lt;a href=&quot;syllabus.pdf&quot;&gt;syllabus&lt;/a&gt;.&lt;/p&gt;
+
+</content>
+
+
+<link href="http://staff.washington.edu/grigg/math307/au12/welcome.html"/>
+<updated>2012-09-20T00:00:00-07:00</updated>
+<id>http://staff.washington.edu/grigg/math307/au12//math307/au12/welcome</id>
+</entry>
+
+
 </feed>
